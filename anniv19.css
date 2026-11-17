@@ -310,6 +310,9 @@ body[data-era="2024-2026"] .candle[aria-pressed=true]{box-shadow:inset 0 0 0 2px
 .growth-table th{color:#6f8a99;font-weight:normal;background:#f4fafc}
 .growth-table td:first-child,.growth-table th:first-child{text-align:left}
 .growth-table td{color:#33566b}
+.growth-table .growth-what{text-align:left;color:#7c8f9a}
+#daily-figure{border-top:1px solid #dbe9f0}
+#daily-note{display:block;line-height:1.7}
 .image-kind-archive{align-items:flex-start;background:#fff;border:1px solid #dfeaf0}
 .image-kind-archive .visual-open img{width:100%;max-height:none;object-fit:cover;object-position:top}
 .status-archive{color:#5b7fa6}

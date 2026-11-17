@@ -753,6 +753,50 @@
         }).join('')}</tbody></table></div>` : '';
       $('#growth-block').hidden = !growth.length;
     }
+    // Discuz 年代：首页上只有今日、昨日、帖子、会员
+    const discuz = numbers.growth2 && Array.isArray(numbers.growth2.rows) ? numbers.growth2.rows : [];
+    const discuzHost = $('#discuz-table');
+    if (discuzHost) {
+      discuzHost.innerHTML = discuz.length ? `<p class="growth-note">${escapeHtml(valueText(numbers.growth2.note))}</p>
+        <div class="growth-scroll"><table><thead><tr><th>日期</th><th>帖子</th><th>会员</th><th>昨日发帖</th><th class="growth-what">这一天</th></tr></thead><tbody>
+        ${discuz.map((row) => {
+          const url = safeUrl(row.url);
+          const date = escapeHtml(valueText(row.date));
+          return `<tr><td>${url ? `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${date}</a>` : date}</td><td>${number(row.posts)}</td><td>${number(row.members)}</td><td>${number(row.yesterday)}</td><td class="growth-what">${escapeHtml(valueText(row.note))}</td></tr>`;
+        }).join('')}</tbody></table></div>` : '';
+      $('#discuz-block').hidden = !discuz.length;
+    }
+    // 平常的一天发多少帖：一年里存档首页上“昨日”的中间值
+    const daily = numbers.daily && Array.isArray(numbers.daily.rows) ? numbers.daily.rows : [];
+    const dailyFigure = $('#daily-figure');
+    if (dailyFigure) {
+      dailyFigure.hidden = !daily.length;
+      if (daily.length) {
+        const dailyStep = 2000;
+        const dailyTop = Math.ceil(Math.max(...daily.map((row) => row.median)) / dailyStep) * dailyStep;
+        const dailyTicks = [];
+        for (let value = 0; value <= dailyTop; value += dailyStep) dailyTicks.push(value);
+        const qian = (value) => (value === 0 ? '0' : (value >= 10000 ? `${value / 10000} 万` : `${value / 1000} 千`));
+        const high = daily.reduce((a, b) => (b.median > a.median ? b : a));
+        const quiet = daily.reduce((a, b) => (b.median < a.median ? b : a));
+        const labelled = new Set([daily[0].year, high.year, quiet.year]);
+        const dailyTip = (row) => `${row.year} 年：平常的一天 ${number(row.median)} 帖 · 存档 ${row.days} 天`;
+        $('#daily-chart').innerHTML = `<div class="bar-chart">
+          <div class="bar-y" aria-hidden="true">${dailyTicks.map((value) => `<span style="bottom:${value / dailyTop * 100}%">${qian(value)}</span>`).join('')}</div>
+          <div class="bar-area">${dailyTicks.map((value) => `<i class="bar-grid" style="bottom:${value / dailyTop * 100}%"></i>`).join('')}
+            ${daily.map((row) => {
+              const height = row.median / dailyTop * 100;
+              return `<button type="button" class="bar-col" data-tip="${escapeHtml(dailyTip(row))}" aria-label="${escapeHtml(dailyTip(row))}">
+                ${labelled.has(row.year) ? `<span class="bar-value" style="bottom:calc(${height}% + 3px)">${number(row.median)}</span>` : ''}
+                <span class="bar" style="height:${height}%"></span><span class="bar-x">${String(row.year).slice(2)}</span></button>`;
+            }).join('')}
+          </div></div>`;
+        $('#daily-note').textContent = valueText(numbers.daily.note);
+        $('#daily-table').innerHTML = `<table><thead><tr><th>年份</th><th>平常的一天（帖）</th><th>存档天数</th></tr></thead><tbody>
+          ${daily.map((row) => `<tr><td>${row.year}</td><td>${number(row.median)}</td><td>${number(row.days)}</td></tr>`).join('')}
+          </tbody></table>`;
+      }
+    }
     $('#thread-chart-table').innerHTML = `<p>${escapeHtml(valueText(numbers.method))}</p>
       <table><thead><tr><th>年份</th><th>新开主题（估）</th><th>年末主题编号</th><th>分界误差</th></tr></thead><tbody>
       ${rows.map((row) => `<tr><td>${row.year}${row.partial ? `<small>（${escapeHtml(row.partial)}）</small>` : ''}</td><td>${number(row.newThreads)}</td><td>${number(row.lastTid)}</td><td>${row.margin ? `±${number(row.margin)}` : '—'}</td></tr>`).join('')}
