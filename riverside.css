@@ -1,0 +1,372 @@
+/* 2026 · Riverside
+   照 2026-11-16 保存的 Riverside 十九周年活动帖页面（Discourse，Horizon 主题）复刻。
+   取色自该页截图：底 #eef1ff，内容区 #fff，强调色 #595bca，正文 #1a1a1a，次要文字 #5f5f5f，分隔线 #e8e8e8。 */
+.riverside-logo{display:none!important}
+
+body[data-era="2026-riverside"]{--rs-bg:#eef1ff;--rs-card:#fff;--rs-text:#1a1a1a;--rs-muted:#5f5f5f;--rs-faint:#8d8d8d;--rs-line:#e8e8e8;--rs-accent:#595bca;--rs-accent-dark:#4446b0;--rs-accent-low:#e6e6f7;--rs-hover:#dfe2fa;--rs-block:#f8f8f8;
+  background:var(--rs-bg);color:var(--rs-text);font:15px/1.65 Inter,"PingFang SC","Microsoft Yahei","Segoe UI",Arial,sans-serif}
+body[data-era="2026-riverside"] a{color:var(--rs-accent)}
+body[data-era="2026-riverside"] a:hover{color:var(--rs-accent-dark)}
+body[data-era="2026-riverside"] button:focus-visible,body[data-era="2026-riverside"] a:focus-visible{outline-color:var(--rs-accent)}
+body[data-era="2026-riverside"] .wrap{width:auto;max-width:none;margin:0 16px}
+
+/* 页头 */
+body[data-era="2026-riverside"] .topbar,
+body[data-era="2026-riverside"] .site-slogan,
+body[data-era="2026-riverside"] .welcome,
+body[data-era="2026-riverside"] .early-logo,
+body[data-era="2026-riverside"] .topic-tabs,
+body[data-era="2026-riverside"] .breadcrumb span{display:none}
+body[data-era="2026-riverside"] .riverside-logo{display:block!important;height:36px;width:auto;max-width:none;border-radius:4px}
+body[data-era="2026-riverside"] .site-header{background:var(--rs-bg)}
+body[data-era="2026-riverside"] .masthead{height:60px;background:transparent;gap:14px}
+body[data-era="2026-riverside"] #menu-toggle{display:block;order:-1;border:0;background:none;color:var(--rs-accent);font-size:22px;line-height:1;padding:6px 9px;border-radius:6px}
+body[data-era="2026-riverside"] #menu-toggle:hover{background:var(--rs-hover)}
+body[data-era="2026-riverside"] .masthead-center{display:flex;justify-content:center}
+body[data-era="2026-riverside"] .forum-search{width:100%;max-width:470px;position:relative}
+body[data-era="2026-riverside"] .forum-search input{height:36px;border:1px solid #9da4de;border-radius:6px;padding:4px 64px 4px 14px;background:#fff;font-size:15px}
+body[data-era="2026-riverside"] .forum-search button{position:absolute;right:4px;top:4px;height:28px;border:0;border-radius:4px;background:transparent;color:var(--rs-accent);padding:0 10px}
+body[data-era="2026-riverside"] .forum-search button:hover{background:var(--rs-bg)}
+
+/* 侧栏（由主导航改排） */
+body[data-era="2026-riverside"] .primary-nav{display:none;background:transparent;border:0}
+body[data-era="2026-riverside"] .primary-nav.is-open{display:block;padding:4px 0 10px}
+body[data-era="2026-riverside"] .nav-inner{display:flex;flex-direction:column;align-items:stretch;height:auto;gap:2px;overflow:visible}
+body[data-era="2026-riverside"] .nav-inner a{display:flex;align-items:center;gap:10px;padding:7px 12px;border:0;border-radius:6px;background:none;color:var(--rs-muted);font-size:15px;font-weight:400;text-shadow:none;white-space:nowrap}
+body[data-era="2026-riverside"] .nav-inner a:hover{background:var(--rs-hover);color:var(--rs-text);text-decoration:none}
+body[data-era="2026-riverside"] .nav-inner a[aria-current]{background:var(--rs-hover);color:var(--rs-text);font-weight:600}
+body[data-era="2026-riverside"] .nav-inner a::before{content:"▤";flex:0 0 18px;text-align:center;color:#8a8cc8;font-size:14px;font-weight:400}
+body[data-era="2026-riverside"] .nav-inner a:nth-child(1)::before{content:"⌂"}
+body[data-era="2026-riverside"] .nav-inner a:nth-child(4)::before{content:"♙"}
+body[data-era="2026-riverside"] .nav-inner a:nth-child(5)::before{content:"▧"}
+body[data-era="2026-riverside"] .nav-inner a:nth-child(6)::before{content:"♧"}
+body[data-era="2026-riverside"] .nav-inner a:nth-child(7)::before{content:"❝"}
+body[data-era="2026-riverside"] .nav-inner a:nth-child(8)::before{content:"☷"}
+body[data-era="2026-riverside"] .nav-inner a:nth-child(9)::before{content:"ⓘ"}
+body[data-era="2026-riverside"] .nav-inner a:nth-child(2){order:-1;justify-content:center;margin-bottom:10px;padding:9px 12px;border-radius:999px;background:var(--rs-accent);color:#fff;font-weight:600}
+body[data-era="2026-riverside"] .nav-inner a:nth-child(2):hover{background:var(--rs-accent-dark);color:#fff}
+body[data-era="2026-riverside"] .nav-inner a:nth-child(2)::before{content:"✦";color:#fff;flex-basis:auto}
+
+@media(min-width:1000px){
+body[data-era="2026-riverside"] .time-machine{position:sticky;top:0;z-index:8}
+body[data-era="2026-riverside"] .site-header{position:sticky;top:34px;z-index:7}
+body[data-era="2026-riverside"] .primary-nav.is-open{position:fixed;left:0;top:94px;bottom:0;width:248px;overflow-y:auto;padding:14px 16px 24px}
+body[data-era="2026-riverside"] .primary-nav .nav-inner{margin:0}
+body[data-era="2026-riverside"] .site-header:has(.primary-nav.is-open)~main,
+body[data-era="2026-riverside"] .site-header:has(.primary-nav.is-open)~footer{margin-left:264px}
+body[data-era="2026-riverside"] main{max-width:1180px}
+body[data-era="2026-riverside"] .section{scroll-margin-top:66px}
+}
+
+/* 首页条 */
+body[data-era="2026-riverside"] .breadcrumb{height:auto;padding:6px 4px 10px;color:var(--rs-muted);font-size:13px}
+body[data-era="2026-riverside"] .breadcrumb b{color:var(--rs-text)}
+body[data-era="2026-riverside"] .notice{border:0;border-radius:12px;background:var(--rs-card);padding:14px 20px;gap:10px 28px;align-items:center;flex-wrap:wrap;color:var(--rs-text);font-size:15px}
+body[data-era="2026-riverside"] .notice b{background:var(--rs-line);color:var(--rs-muted);border-radius:4px;padding:1px 8px;font-size:12px;font-weight:400}
+body[data-era="2026-riverside"] .notice a{color:var(--rs-accent)}
+body[data-era="2026-riverside"] .notice a:nth-child(2){color:var(--rs-text);font-weight:700}
+body[data-era="2026-riverside"] .forum-statline{padding:12px 6px 8px;color:var(--rs-muted);font-size:13px}
+body[data-era="2026-riverside"] .stat-item strong{color:var(--rs-accent);font-weight:600}
+body[data-era="2026-riverside"] .stat-item span{color:var(--rs-muted)}
+body[data-era="2026-riverside"] .home-topics{border:0;background:none;margin-bottom:16px}
+body[data-era="2026-riverside"] #topic-columns{grid-template-columns:repeat(3,1fr);gap:16px}
+body[data-era="2026-riverside"] .topic-column{border:0;border-radius:12px;background:var(--rs-card);padding-bottom:8px}
+body[data-era="2026-riverside"] .topic-column h3{background:none;border:0;text-align:left;padding:14px 18px 4px;font-size:15px;font-weight:700;line-height:1.5;color:var(--rs-text)}
+body[data-era="2026-riverside"] .topic-column ol{padding:2px 18px}
+body[data-era="2026-riverside"] .topic-column li{height:30px;line-height:30px;border-bottom:1px solid var(--rs-line)}
+body[data-era="2026-riverside"] .topic-column li:last-child{border-bottom:0}
+body[data-era="2026-riverside"] .topic-column button,
+body[data-era="2026-riverside"] .topic-column:nth-child(2) button,
+body[data-era="2026-riverside"] .topic-column:nth-child(3) button{color:var(--rs-text);font:14px/30px Inter,"PingFang SC","Microsoft Yahei",sans-serif}
+body[data-era="2026-riverside"] .topic-column button:hover{color:var(--rs-accent)}
+body[data-era="2026-riverside"] .rank,
+body[data-era="2026-riverside"] .topic-column li:nth-child(n) .rank{width:18px;height:auto;margin-right:8px;background:none;border:0;outline:0;color:var(--rs-faint);font:600 12px/1 Inter,Arial,sans-serif}
+body[data-era="2026-riverside"] .topic-column li:nth-child(-n+3) .rank{color:var(--rs-accent)}
+
+/* 版块 */
+body[data-era="2026-riverside"] .section{border:0;border-radius:12px;background:var(--rs-card);margin:16px 0;overflow:hidden}
+body[data-era="2026-riverside"] .section-heading{height:auto;padding:18px 22px 10px;background:none;border:0;color:var(--rs-text);font-size:21px;font-weight:700;line-height:1.4}
+body[data-era="2026-riverside"] .section-heading small{display:inline-block;margin-left:10px;padding:1px 8px;border-radius:4px;background:var(--rs-line);color:var(--rs-muted);font-size:12px;font-weight:400;vertical-align:3px}
+body[data-era="2026-riverside"] .subheading,
+body[data-era="2026-riverside"] .column-heading{background:none;border:0;border-top:1px solid var(--rs-line);padding:14px 22px 6px;color:#484c65;font-size:14px;font-weight:600}
+body[data-era="2026-riverside"] .subheading span,
+body[data-era="2026-riverside"] .column-heading span{color:var(--rs-faint);font-size:12px;font-weight:400}
+body[data-era="2026-riverside"] .column-heading h3{font-size:14px}
+body[data-era="2026-riverside"] .evidence-badge{background:var(--rs-line);border:0;border-radius:4px;color:var(--rs-muted);font-size:11px;padding:1px 6px}
+body[data-era="2026-riverside"] .source-link{font-size:12px}
+body[data-era="2026-riverside"] .source-meta,
+body[data-era="2026-riverside"] .source-missing{font-size:11px;color:var(--rs-faint)}
+body[data-era="2026-riverside"] .text-button{color:var(--rs-accent)}
+body[data-era="2026-riverside"] .empty-state,
+body[data-era="2026-riverside"] .steward-empty{color:var(--rs-muted)}
+
+/* 导读 */
+body[data-era="2026-riverside"] .overview-body{padding:4px 22px 18px;gap:28px}
+body[data-era="2026-riverside"] .overview-body h1{color:var(--rs-text);font-size:17px}
+body[data-era="2026-riverside"] .overview-body aside{border-left:1px solid var(--rs-line)}
+body[data-era="2026-riverside"] .overview-fact-label{color:var(--rs-muted)}
+body[data-era="2026-riverside"] .period-list{background:var(--rs-block);border-top:1px solid var(--rs-line);padding:10px 22px;font-size:13px}
+
+/* 纪事列表 */
+body[data-era="2026-riverside"] .timeline-tools{background:none;border-bottom:1px solid var(--rs-line);padding:6px 22px 14px;font-size:13px}
+body[data-era="2026-riverside"] .timeline-tools input,
+body[data-era="2026-riverside"] .timeline-tools select,
+body[data-era="2026-riverside"] .anniversary-toolbar select,
+body[data-era="2026-riverside"] .quiz-fill input{height:32px;border:1px solid #c9cbe0;border-radius:6px;background:#fff;padding:3px 10px}
+body[data-era="2026-riverside"] .timeline-tools button,
+body[data-era="2026-riverside"] .quiz-fill button{height:32px;border:1px solid #c9cbe0;border-radius:6px;background:#fff;color:var(--rs-accent);padding:0 12px}
+body[data-era="2026-riverside"] .timeline-tools #timeline-result{color:var(--rs-faint)}
+body[data-era="2026-riverside"] .thread-table-head{background:none;border-bottom:1px solid var(--rs-line);padding:8px 22px;color:var(--rs-faint);font-size:13px}
+body[data-era="2026-riverside"] .timeline-item{padding:14px 22px;min-height:0;border-bottom:1px solid var(--rs-line)}
+body[data-era="2026-riverside"] .timeline-item:nth-child(even){background:none}
+body[data-era="2026-riverside"] .timeline-date{border:0;color:var(--rs-muted);font-size:13px}
+body[data-era="2026-riverside"] .timeline-date small{color:var(--rs-faint)}
+body[data-era="2026-riverside"] .timeline-title{color:var(--rs-text);font-size:16px;font-weight:600;line-height:1.5}
+body[data-era="2026-riverside"] .timeline-title:hover{color:var(--rs-accent)}
+body[data-era="2026-riverside"] .timeline-title:before{content:none}
+body[data-era="2026-riverside"] .timeline-summary{color:var(--rs-muted);font-size:14px;line-height:1.65}
+body[data-era="2026-riverside"] .category-label{color:var(--rs-muted);font-size:12px}
+body[data-era="2026-riverside"] .category-label::before{content:"";display:inline-block;width:9px;height:9px;margin-right:5px;border-radius:2px;background:var(--rs-accent)}
+body[data-era="2026-riverside"] .timeline-open{color:var(--rs-faint)}
+
+/* 站务 */
+body[data-era="2026-riverside"] .steward-frontend{border-right:1px solid var(--rs-line)}
+body[data-era="2026-riverside"] .leader-row{padding:14px 18px;border-bottom:1px solid var(--rs-line)}
+body[data-era="2026-riverside"] .leader-name{color:var(--rs-text);font-size:15px}
+body[data-era="2026-riverside"] .leader-tenure,
+body[data-era="2026-riverside"] .role-chip{font-size:12px;color:var(--rs-muted)}
+body[data-era="2026-riverside"] .leader-copy{font-size:13px;color:#33343a}
+body[data-era="2026-riverside"] .organization-row,
+body[data-era="2026-riverside"] .redesign-row,
+body[data-era="2026-riverside"] .gap-row,
+body[data-era="2026-riverside"] .chapter-row{padding:14px 22px;border-bottom:1px solid var(--rs-line);font-size:14px}
+body[data-era="2026-riverside"] .organization-row h4,
+body[data-era="2026-riverside"] .redesign-row h4,
+body[data-era="2026-riverside"] .gap-row h4{font-size:15px}
+body[data-era="2026-riverside"] .organization-date,
+body[data-era="2026-riverside"] .redesign-date,
+body[data-era="2026-riverside"] .chapter-kicker{color:var(--rs-muted);font-size:13px}
+body[data-era="2026-riverside"] .redesign-scope{color:var(--rs-faint);font-size:12px}
+body[data-era="2026-riverside"] .tenure-chart{padding:8px 22px 16px;border-bottom:0}
+body[data-era="2026-riverside"] .tenure-legend,
+body[data-era="2026-riverside"] .tenure-name{font-size:12px;color:var(--rs-muted)}
+body[data-era="2026-riverside"] .tenure-grid i{background:var(--rs-line)}
+
+/* 界面档案 */
+body[data-era="2026-riverside"] .reconstruction-note{background:var(--rs-block);color:var(--rs-muted);font-size:13px;padding:10px 22px}
+body[data-era="2026-riverside"] .visual-entry{padding:16px 22px;border-color:var(--rs-line)}
+body[data-era="2026-riverside"] .visual-preview{background:var(--rs-block);border-radius:8px}
+body[data-era="2026-riverside"] .visual-preview.image-kind-riverside{background:#0f2a4d}
+body[data-era="2026-riverside"] .visual-preview.image-kind-riverside img{border-radius:50%}
+body[data-era="2026-riverside"] .visual-meta{font-size:12px;color:var(--rs-faint)}
+body[data-era="2026-riverside"] .visual-copy h4{color:var(--rs-text);font-size:15px}
+body[data-era="2026-riverside"] .visual-copy p{color:var(--rs-muted);font-size:13px}
+body[data-era="2026-riverside"] .domain-row code{background:var(--rs-block);border:1px solid var(--rs-line);border-radius:4px;color:var(--rs-accent);font-size:13px}
+
+/* 畔庆 */
+body[data-era="2026-riverside"] .anniversary-toolbar{background:none;border-bottom:1px solid var(--rs-line);padding:6px 22px 14px;align-items:center;font-size:13px;color:var(--rs-muted)}
+body[data-era="2026-riverside"] .anniversary-sheet{padding:22px}
+body[data-era="2026-riverside"] .anniversary-year-large{font:700 36px/1.2 Inter,Arial,sans-serif;color:var(--rs-accent);border-right:1px solid var(--rs-line)}
+body[data-era="2026-riverside"] .anniversary-content h3{color:var(--rs-text);font-size:20px}
+body[data-era="2026-riverside"] .anniversary-number{color:var(--rs-muted);font-size:12px}
+body[data-era="2026-riverside"] .anniversary-theme{color:var(--rs-accent)}
+body[data-era="2026-riverside"] .section.is-flash{animation-name:rs-flash}
+@keyframes rs-flash{0%{box-shadow:0 0 0 3px #595bca}100%{box-shadow:0 0 0 3px #595bca00}}
+
+body[data-era="2026-riverside"] .anniversary-toolbar button{height:32px;border:1px solid #c9cbe0;border-radius:6px;background:#fff;color:var(--rs-accent);padding:0 12px}
+body[data-era="2026-riverside"] .candle[aria-pressed=true]{box-shadow:inset 0 0 0 2px var(--rs-accent)}
+body[data-era="2026-riverside"] .time-hint{color:var(--rs-faint)}
+body[data-era="2026-riverside"] .reconstruction-note b{color:var(--rs-text);font-weight:600}
+body[data-era="2026-riverside"] .steward-general .leader-row:nth-of-type(odd),
+body[data-era="2026-riverside"] .steward-other .leader-row:nth-of-type(odd){border-right:1px solid var(--rs-line)}
+body[data-era="2026-riverside"] .visual-text-only{color:var(--rs-faint)}
+
+body[data-era="2026-riverside"] .growth-note{padding:10px 22px 0;color:var(--rs-faint);font-size:12px}
+body[data-era="2026-riverside"] .growth-scroll{padding:8px 22px 16px}
+body[data-era="2026-riverside"] .growth-table table{font-size:13px}
+body[data-era="2026-riverside"] .growth-table th{background:var(--rs-block);color:var(--rs-muted)}
+body[data-era="2026-riverside"] .growth-table th,body[data-era="2026-riverside"] .growth-table td{border-color:var(--rs-line)}
+body[data-era="2026-riverside"] .growth-table td{color:var(--rs-text)}
+body[data-era="2026-riverside"] .image-kind-archive{border-color:var(--rs-line)}
+
+/* 十九周年专题 */
+body[data-era="2026-riverside"] .nineteen-hero{background:linear-gradient(120deg,#f4f5ff,#fff 55%);border:0;padding:8px 22px 20px;gap:26px}
+body[data-era="2026-riverside"] .nineteen-count{border-right:1px solid var(--rs-line);color:var(--rs-muted)}
+body[data-era="2026-riverside"] .nineteen-count strong{font:700 42px/1.2 Inter,Arial,sans-serif;color:var(--rs-accent);letter-spacing:0}
+body[data-era="2026-riverside"] .nineteen-count span{font-size:13px}
+body[data-era="2026-riverside"] .nineteen-copy h3{font-size:22px;color:var(--rs-text)}
+body[data-era="2026-riverside"] .nineteen-copy p{font-size:15px;color:#33343a;line-height:1.75}
+body[data-era="2026-riverside"] .nineteen-copy .celebration-status{color:var(--rs-accent)}
+body[data-era="2026-riverside"] .nineteen-badges b{font-size:12px;color:var(--rs-text)}
+body[data-era="2026-riverside"] .nineteen-badges span{font-size:11px;color:var(--rs-accent)}
+body[data-era="2026-riverside"] .candle-strip{padding:10px 22px 16px;gap:10px;grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}
+body[data-era="2026-riverside"] .candle{border:1px solid var(--rs-line);border-radius:10px;background:#fff;padding:8px 10px;min-height:56px}
+body[data-era="2026-riverside"] .candle:hover{border-color:var(--rs-accent);background:#f6f6ff}
+body[data-era="2026-riverside"] .candle b{background:var(--rs-accent)}
+body[data-era="2026-riverside"] .candle span{color:var(--rs-faint)}
+body[data-era="2026-riverside"] .candle em{color:var(--rs-text);font-size:13px}
+body[data-era="2026-riverside"] .candle.is-quiet b{background:#b9bbc7}
+body[data-era="2026-riverside"] .candle.is-quiet em{color:var(--rs-faint)}
+body[data-era="2026-riverside"] .candle.is-now{border-color:var(--rs-accent);background:var(--rs-accent-low)}
+body[data-era="2026-riverside"] .candle.is-now b{background:#0f2a4d}
+body[data-era="2026-riverside"] .celebration-card{padding:14px 22px 18px;border-color:var(--rs-line);font-size:14px;color:#33343a}
+body[data-era="2026-riverside"] .celebration-card h4{color:var(--rs-text);font-size:16px}
+body[data-era="2026-riverside"] .celebration-card h4 small{color:var(--rs-faint);font-size:12px}
+body[data-era="2026-riverside"] .celebration-when{color:var(--rs-muted);font-size:12px}
+body[data-era="2026-riverside"] .celebration-steps{color:var(--rs-text)}
+body[data-era="2026-riverside"] .celebration-quote{color:var(--rs-accent)}
+body[data-era="2026-riverside"] .celebration-cta{border:0;border-radius:999px;background:var(--rs-accent);color:#fff;padding:6px 18px;font-weight:600}
+body[data-era="2026-riverside"] .celebration-cta:hover{background:var(--rs-accent-dark);color:#fff}
+body[data-era="2026-riverside"] .celebration-note,
+body[data-era="2026-riverside"] .celebration-aside{color:var(--rs-faint);font-size:12px}
+body[data-era="2026-riverside"] .share-list div{grid-template-columns:76px 1fr}
+body[data-era="2026-riverside"] .share-list dt{color:var(--rs-accent)}
+body[data-era="2026-riverside"] .share-list dd{color:#33343a}
+body[data-era="2026-riverside"] .celebration-more{color:var(--rs-muted)}
+body[data-era="2026-riverside"] .celebration-closing{border-left:4px solid var(--rs-accent);border-radius:0 8px 8px 0;background:var(--rs-block);color:var(--rs-text);font:16px/1.8 Inter,"PingFang SC","Microsoft Yahei",sans-serif}
+body[data-era="2026-riverside"] .milestone-tiles{border-color:var(--rs-line);grid-template-columns:repeat(4,1fr)}
+body[data-era="2026-riverside"] .milestone{padding:14px 18px;border-color:var(--rs-line)}
+body[data-era="2026-riverside"] .milestone strong{font:700 24px/1.3 Inter,Arial,sans-serif;color:var(--rs-accent)}
+body[data-era="2026-riverside"] .milestone span{color:#33343a;font-size:13px}
+body[data-era="2026-riverside"] .milestone small{color:var(--rs-faint);font-size:11px}
+body[data-era="2026-riverside"] .chart-figure{padding:16px 22px}
+body[data-era="2026-riverside"] .chart-figure figcaption{color:var(--rs-text);font-size:15px}
+body[data-era="2026-riverside"] .chart-figure figcaption span,
+body[data-era="2026-riverside"] .chart-marks{color:var(--rs-faint);font-size:12px}
+body[data-era="2026-riverside"] .chart-marks b{color:var(--rs-muted)}
+body[data-era="2026-riverside"] .bar{background:var(--rs-accent)}
+body[data-era="2026-riverside"] .bar-col.is-partial .bar{background:#b4b5ec}
+body[data-era="2026-riverside"] .bar-col:hover .bar,
+body[data-era="2026-riverside"] .bar-col:focus-visible .bar{background:var(--rs-accent-dark)}
+body[data-era="2026-riverside"] .bar-col.is-partial:hover .bar,
+body[data-era="2026-riverside"] .bar-col.is-partial:focus-visible .bar{background:#9092e0}
+body[data-era="2026-riverside"] .bar-grid{background:var(--rs-line)}
+body[data-era="2026-riverside"] .bar-area{border-bottom-color:#c9cbe0}
+body[data-era="2026-riverside"] .chart-table summary{color:var(--rs-accent)}
+body[data-era="2026-riverside"] .chart-table th{background:var(--rs-block);color:var(--rs-muted)}
+body[data-era="2026-riverside"] .chart-table th,
+body[data-era="2026-riverside"] .chart-table td{border-color:var(--rs-line)}
+
+/* 原话：帖子楼层 */
+body[data-era="2026-riverside"] .voice-tools{background:none;border-bottom:0;padding:4px 22px 12px}
+body[data-era="2026-riverside"] .voice-tools button{border:1px solid #c9cbe0;border-radius:999px;background:#fff;color:var(--rs-muted);padding:3px 14px;font-size:13px}
+body[data-era="2026-riverside"] .voice-tools button[aria-pressed=true]{background:var(--rs-accent);border-color:var(--rs-accent);color:#fff}
+body[data-era="2026-riverside"] .voice-tools span{color:var(--rs-faint);font-size:12px}
+body[data-era="2026-riverside"] .voice-year{background:none;border:0;border-top:1px solid var(--rs-line);padding:14px 22px 2px;color:#484c65;font:700 13px/1.5 Inter,Arial,sans-serif}
+body[data-era="2026-riverside"] .voice-floor{grid-template-columns:176px 1fr;border-bottom:0}
+body[data-era="2026-riverside"] .voice-author{background:none;border:0;padding:12px 8px 12px 22px}
+body[data-era="2026-riverside"] .voice-author b{color:var(--rs-text);font-size:15px}
+body[data-era="2026-riverside"] .voice-author time{color:var(--rs-faint);font-size:12px}
+body[data-era="2026-riverside"] .voice-body{padding:12px 22px 12px 8px}
+body[data-era="2026-riverside"] .voice-body blockquote{font:16px/1.8 Inter,"PingFang SC","Microsoft Yahei",sans-serif;color:var(--rs-text)}
+body[data-era="2026-riverside"] .voice-context{color:var(--rs-muted);font-size:13px}
+
+/* 记忆、词典、竞猜 */
+body[data-era="2026-riverside"] .chapter-content h3{color:var(--rs-text);font-size:17px}
+body[data-era="2026-riverside"] .chapter-body{background:var(--rs-block);border-radius:8px;padding:8px 12px}
+body[data-era="2026-riverside"] .chapter-body summary{color:var(--rs-accent);cursor:pointer}
+body[data-era="2026-riverside"] .glossary{padding:6px 22px 14px}
+body[data-era="2026-riverside"] .glossary-item{grid-template-columns:92px 1fr;border-bottom:1px solid var(--rs-line);padding:9px 0}
+body[data-era="2026-riverside"] .glossary dt{color:var(--rs-text);font-size:14px}
+body[data-era="2026-riverside"] .glossary dd{color:#33343a;font-size:14px}
+body[data-era="2026-riverside"] .glossary .source-link{font-size:11px;color:var(--rs-faint)}
+body[data-era="2026-riverside"] .quiz-item{padding:16px 22px;border-color:var(--rs-line)}
+body[data-era="2026-riverside"] .quiz-from{color:var(--rs-faint);font-size:12px}
+body[data-era="2026-riverside"] .quiz-item h4{color:var(--rs-text);font-size:15px;font-weight:600}
+body[data-era="2026-riverside"] .quiz-options button{border:1px solid var(--rs-line);border-radius:8px;padding:7px 12px;font-size:14px;color:var(--rs-text)}
+body[data-era="2026-riverside"] .quiz-options button b{color:var(--rs-accent)}
+body[data-era="2026-riverside"] .quiz-options button:hover:enabled{border-color:var(--rs-accent);background:#f6f6ff}
+body[data-era="2026-riverside"] .quiz-options button.is-answer{border-color:#090;background:#f0faf0;color:#0a6b0a}
+body[data-era="2026-riverside"] .quiz-options button.is-picked-wrong{border-color:#c80001;background:#fdf2f2;color:#a40001}
+body[data-era="2026-riverside"] .quiz-result{font-size:13px;color:var(--rs-muted)}
+
+/* 说明、页脚、弹窗 */
+body[data-era="2026-riverside"] .source-intro{padding:4px 22px 14px;font-size:14px}
+body[data-era="2026-riverside"] .site-footer{color:var(--rs-faint);font-size:12px}
+body[data-era="2026-riverside"] dialog{background:#fff;border:0;border-radius:12px;color:var(--rs-text);box-shadow:0 12px 48px #1a1a4033}
+body[data-era="2026-riverside"] dialog::backdrop{background:#1a1a4059}
+body[data-era="2026-riverside"] .dialog-topline{background:none;border-bottom:1px solid var(--rs-line);color:var(--rs-muted);padding:10px 18px}
+body[data-era="2026-riverside"] .dialog-meta{background:var(--rs-block);border-right:0;font-size:13px;color:var(--rs-muted)}
+body[data-era="2026-riverside"] .dialog-content h2{color:var(--rs-text);border-bottom:1px solid var(--rs-line);font-size:20px}
+body[data-era="2026-riverside"] .dialog-body,
+body[data-era="2026-riverside"] .dialog-sources{font-size:15px;line-height:1.8}
+body[data-era="2026-riverside"] .dialog-sources{border-top:1px solid var(--rs-line)}
+body[data-era="2026-riverside"] .dialog-summary{background:var(--rs-block);border-left:4px solid var(--rs-accent);border-radius:0 8px 8px 0}
+body[data-era="2026-riverside"] .dialog-note-title{color:var(--rs-faint);border-top:1px solid var(--rs-line);font-size:12px}
+body[data-era="2026-riverside"] .dialog-note{color:var(--rs-muted);font-size:13px}
+body[data-era="2026-riverside"] .dialog-tags{color:var(--rs-faint)}
+body[data-era="2026-riverside"] .chart-tip{background:#1a1a1a;border-radius:6px;font-family:Inter,"PingFang SC","Microsoft Yahei",sans-serif}
+
+@media(max-width:999px){
+body[data-era="2026-riverside"] .primary-nav.is-open{margin:0 16px 10px;padding:10px;border-radius:12px;background:var(--rs-card)}
+body[data-era="2026-riverside"] .primary-nav .nav-inner{margin:0}
+}
+@media(max-width:760px){
+body[data-era="2026-riverside"]{font-size:14px}
+body[data-era="2026-riverside"] .wrap{margin:0 10px}
+body[data-era="2026-riverside"] .masthead{height:54px;gap:8px}
+body[data-era="2026-riverside"] .masthead-center{display:none}
+body[data-era="2026-riverside"] .riverside-logo{height:32px}
+body[data-era="2026-riverside"] .primary-nav.is-open{margin:0 10px 8px}
+body[data-era="2026-riverside"] .notice{padding:12px 14px;gap:6px 16px;font-size:13px}
+body[data-era="2026-riverside"] .notice a{font-size:13px}
+body[data-era="2026-riverside"] .forum-statline{font-size:12px}
+body[data-era="2026-riverside"] #topic-columns{grid-template-columns:1fr;gap:10px}
+body[data-era="2026-riverside"] .topic-column{border-bottom:0}
+body[data-era="2026-riverside"] .topic-column h3{font-size:14px;padding:12px 14px 2px}
+body[data-era="2026-riverside"] .topic-column ol{display:block;padding:2px 14px}
+body[data-era="2026-riverside"] .topic-column button{font-size:13px}
+body[data-era="2026-riverside"] .section{margin:10px 0}
+body[data-era="2026-riverside"] .section-heading{padding:14px 14px 8px;font-size:18px}
+body[data-era="2026-riverside"] .section-heading small{display:block;width:fit-content;margin:6px 0 0;font-size:11px}
+body[data-era="2026-riverside"] .subheading,
+body[data-era="2026-riverside"] .column-heading{padding:12px 14px 6px;font-size:13px}
+body[data-era="2026-riverside"] .subheading span{float:none;display:block;font-size:11px}
+body[data-era="2026-riverside"] .overview-body{padding:4px 14px 14px}
+body[data-era="2026-riverside"] .period-list{padding:8px 14px;font-size:12px}
+body[data-era="2026-riverside"] .timeline-tools{padding:4px 14px 12px}
+body[data-era="2026-riverside"] .thread-table-head{padding:6px 14px;font-size:11px}
+body[data-era="2026-riverside"] .timeline-item{padding:12px 14px}
+body[data-era="2026-riverside"] .timeline-date{font-size:11px}
+body[data-era="2026-riverside"] .timeline-title{font-size:15px}
+body[data-era="2026-riverside"] .timeline-summary{font-size:13px}
+body[data-era="2026-riverside"] .leader-row{padding:12px 14px}
+body[data-era="2026-riverside"] .organization-row,
+body[data-era="2026-riverside"] .redesign-row,
+body[data-era="2026-riverside"] .gap-row,
+body[data-era="2026-riverside"] .chapter-row{padding:12px 14px;font-size:13px}
+body[data-era="2026-riverside"] .tenure-chart{padding:8px 10px 12px}
+body[data-era="2026-riverside"] .reconstruction-note{padding:8px 14px;font-size:12px}
+body[data-era="2026-riverside"] .visual-entry{padding:12px 14px}
+body[data-era="2026-riverside"] .anniversary-toolbar{padding:4px 14px 12px;flex-wrap:wrap}
+body[data-era="2026-riverside"] .anniversary-sheet{padding:14px}
+body[data-era="2026-riverside"] .anniversary-year-large{font-size:24px}
+body[data-era="2026-riverside"] .anniversary-content h3{font-size:17px}
+body[data-era="2026-riverside"] .nineteen-hero{padding:6px 14px 14px;gap:10px}
+body[data-era="2026-riverside"] .nineteen-count{border-right:0;border-bottom:1px solid var(--rs-line)}
+body[data-era="2026-riverside"] .nineteen-count strong{font-size:30px}
+body[data-era="2026-riverside"] .nineteen-copy h3{font-size:18px}
+body[data-era="2026-riverside"] .nineteen-copy p{font-size:14px}
+body[data-era="2026-riverside"] .candle-strip{grid-template-columns:1fr 1fr;padding:8px 14px 12px;gap:8px}
+body[data-era="2026-riverside"] .candle em{font-size:12px}
+body[data-era="2026-riverside"] .celebration-card{padding:12px 14px 14px;border-color:var(--rs-line)}
+body[data-era="2026-riverside"] .share-list div{grid-template-columns:64px 1fr}
+body[data-era="2026-riverside"] .milestone-tiles{grid-template-columns:1fr 1fr}
+body[data-era="2026-riverside"] .milestone{padding:10px 14px}
+body[data-era="2026-riverside"] .milestone strong{font-size:20px}
+body[data-era="2026-riverside"] .chart-figure{padding:12px 10px}
+body[data-era="2026-riverside"] .voice-tools{padding:4px 14px 10px}
+body[data-era="2026-riverside"] .voice-tools button{padding:3px 10px;font-size:12px}
+body[data-era="2026-riverside"] .voice-year{padding:12px 14px 2px}
+body[data-era="2026-riverside"] .voice-floor{grid-template-columns:1fr}
+body[data-era="2026-riverside"] .voice-author{padding:10px 14px 0;border:0}
+body[data-era="2026-riverside"] .voice-body{padding:4px 14px 12px}
+body[data-era="2026-riverside"] .voice-body blockquote{font-size:15px}
+body[data-era="2026-riverside"] .glossary{padding:4px 14px 10px}
+body[data-era="2026-riverside"] .glossary-item{grid-template-columns:84px 1fr}
+body[data-era="2026-riverside"] .quiz-item{padding:14px}
+body[data-era="2026-riverside"] .source-intro{padding:4px 14px 12px;font-size:13px}
+body[data-era="2026-riverside"] .dialog-content h2{font-size:16px}
+body[data-era="2026-riverside"] .dialog-body,
+body[data-era="2026-riverside"] .dialog-sources{font-size:14px}
+}

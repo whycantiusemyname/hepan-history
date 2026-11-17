@@ -1,0 +1,340 @@
+/* 十九周年增补：专题、数字、任期图、原话、词典、竞猜。基准为 2009—2012 皮肤，其余年代在文件后半覆盖。 */
+.text-button{border:0;background:none;padding:0;color:#1674aa}
+.text-button:hover{color:#f60;text-decoration:underline}
+
+.nineteen-hero{display:grid;grid-template-columns:190px 1fr;gap:20px;padding:16px 14px;align-items:center;background:linear-gradient(#f7fdff,#eef8fc);border-bottom:1px solid #d5e6ef}
+.nineteen-count{text-align:center;border-right:1px dotted #b9d3e0;padding-right:18px;color:#6f8a99}
+.nineteen-count strong{display:block;font:bold 34px/1.2 Georgia,"Times New Roman",serif;color:#d2572c;letter-spacing:1px}
+.nineteen-count span{display:block;font-size:12px}
+.nineteen-copy h3{font-size:18px;color:#1c6a9c;margin-bottom:4px}
+.nineteen-copy p{margin:4px 0;color:#52687a;font-size:13px;line-height:1.8}
+.nineteen-copy .celebration-status{color:#b0562b}
+
+.candle-strip{list-style:none;margin:0;padding:10px 12px;display:grid;grid-template-columns:repeat(auto-fill,minmax(136px,1fr));gap:6px}
+.topic-column li{display:flex;align-items:center}
+.topic-column .rank{flex-shrink:0}
+.topic-column button{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.candle{width:100%;display:grid;grid-template-columns:30px 1fr;grid-template-rows:auto auto;column-gap:7px;align-items:center;text-align:left;border:1px solid #cfe2ec;background:#f8fcfe;padding:5px 7px;min-height:46px}
+.candle:hover{border-color:#f0a15c;background:#fffaf2}
+.candle b{grid-row:1/3;width:30px;height:30px;display:flex;align-items:center;justify-content:center;background:#3d93c9;color:#fff;font:bold 14px Tahoma,sans-serif;border-radius:50%}
+.candle span{font-size:11px;color:#7f97a5;line-height:1.3}
+.candle em{font-style:normal;color:#2c6f97;font-size:12px;line-height:1.35;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+.candle.is-quiet b{background:#aebcc5}
+.candle.is-quiet em{color:#8798a3}
+.candle.is-now{border-color:#e58a4a;background:#fff6ea}
+.candle.is-now b{background:#e0672f}
+
+.celebration-detail{display:grid;grid-template-columns:1fr 1fr}
+.celebration-card{padding:12px 14px;border-right:1px solid #dbe9f0;font-size:12px;line-height:1.8;color:#4d6170;min-width:0}
+.celebration-card:last-child{border-right:0}
+.celebration-card h4{color:#2c7aa5;font-size:13px;margin-bottom:4px}
+.celebration-when{display:block;color:#a06a3c;font-size:11px}
+.celebration-games{margin:6px 0;padding-left:22px;columns:2;color:#34566b}
+.celebration-note{color:#8a98a1;font-size:11px}
+
+.milestone-tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(138px,1fr));border-bottom:1px solid #dbe9f0}
+.milestone{padding:11px 12px;border-right:1px solid #e3eef3;border-bottom:1px solid #e3eef3;margin-bottom:-1px}
+.milestone strong{display:block;font:bold 20px/1.3 Tahoma,Arial,sans-serif;color:#2b6f98}
+.milestone span{display:block;color:#51697a;font-size:12px}
+.milestone small{color:#93a5b0;font-size:10px}
+
+.chart-figure{margin:0;padding:12px 14px 14px}
+.chart-figure figcaption{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:6px;color:#33566b;font-size:13px}
+.chart-figure figcaption span{color:#8fa2ad;font-size:11px}
+.bar-chart{display:grid;grid-template-columns:40px 1fr;height:232px;padding-top:16px}
+.bar-y{position:relative;height:calc(100% - 22px)}
+.bar-y span{position:absolute;right:7px;transform:translateY(50%);font-size:10px;color:#8a9ba6;white-space:nowrap}
+.bar-area{position:relative;height:calc(100% - 22px);display:flex;gap:2px;border-bottom:1px solid #b6cad6}
+.bar-grid{position:absolute;left:0;right:0;height:1px;background:#e6eff3}
+.bar-col{position:relative;flex:1 1 0;min-width:0;border:0;background:none;padding:0}
+.bar-col:focus-visible{outline-offset:-2px}
+.bar{position:absolute;left:50%;bottom:0;transform:translateX(-50%);width:68%;max-width:24px;min-height:1px;background:#2a78d6;border-radius:4px 4px 0 0}
+.bar-col.is-partial .bar{background:#a4c6ef}
+.bar-col:hover .bar,.bar-col:focus-visible .bar{background:#1d5fb3}
+.bar-col.is-partial:hover .bar,.bar-col.is-partial:focus-visible .bar{background:#7fafe6}
+.bar-x{position:absolute;left:50%;bottom:-18px;transform:translateX(-50%);font-size:10px;color:#7d909c}
+.bar-value{position:absolute;left:50%;transform:translateX(-50%);font-size:10px;color:#405766;white-space:nowrap;pointer-events:none}
+.chart-marks{display:flex;gap:6px 22px;flex-wrap:wrap;margin:8px 0 0 40px;color:#7c8f9a;font-size:11px}
+.chart-marks b{color:#45647a;font-weight:normal}
+.chart-table{margin:8px 0 0 40px;font-size:11px;color:#62788a}
+.chart-table summary{cursor:pointer;color:#1674aa}
+.chart-table table{border-collapse:collapse;margin:8px 0;min-width:320px}
+.chart-table th,.chart-table td{border:1px solid #d9e6ed;padding:2px 9px;text-align:right}
+.chart-table th{background:#eef6fa;font-weight:normal;color:#5c7686}
+.chart-table td:first-child,.chart-table th:first-child{text-align:left}
+.chart-table ul{margin:6px 0;padding-left:18px}
+.chart-tip{position:fixed;z-index:30;max-width:min(330px,calc(100vw - 16px));background:#22384a;color:#fff;font:12px/1.5 Tahoma,"Microsoft Yahei",sans-serif;padding:5px 9px;border-radius:3px;pointer-events:none;box-shadow:0 2px 8px #0004}
+.chart-tip[hidden]{display:none}
+
+.tenure-chart{padding:10px 14px 12px;border-bottom:1px solid #d3e3ed}
+.tenure-legend{display:flex;gap:6px 16px;flex-wrap:wrap;font-size:11px;color:#5f7686;margin-bottom:6px}
+.tenure-legend span{display:inline-flex;align-items:center;gap:5px}
+.tenure-swatch{display:inline-block;width:14px;height:8px;border-radius:2px}
+.branch-general{background:#2a78d6}
+.branch-frontend{background:#eb6834}
+.branch-backend{background:#1baf7a}
+.branch-other{background:#93a1ad}
+.tenure-body{position:relative;padding-top:18px}
+.tenure-axis{position:absolute;left:104px;right:8px;top:0;height:16px}
+.tenure-axis span{position:absolute;transform:translateX(-50%);font-size:10px;color:#8a9ba6}
+.tenure-grid{position:absolute;left:104px;right:8px;top:18px;bottom:0}
+.tenure-grid i{position:absolute;top:0;bottom:0;width:1px;background:#e6eff3}
+.tenure-row{position:relative;display:grid;grid-template-columns:104px 1fr;align-items:center;height:22px;padding-right:8px}
+.tenure-name{font-size:11px;color:#3f5f73;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-right:8px}
+.tenure-track{position:relative;height:100%}
+.tenure-bar{position:absolute;top:5px;height:12px;border:0;padding:0;border-radius:3px;min-width:6px}
+.tenure-bar:hover,.tenure-bar:focus-visible{filter:brightness(.86)}
+.tenure-bar.fade-end{-webkit-mask-image:linear-gradient(90deg,#000 35%,transparent);mask-image:linear-gradient(90deg,#000 35%,transparent)}
+.tenure-bar.fade-start{-webkit-mask-image:linear-gradient(270deg,#000 55%,transparent);mask-image:linear-gradient(270deg,#000 55%,transparent)}
+.tenure-unknown{position:absolute;left:26%;top:3px;font-size:10px;color:#9aa9b3}
+.tenure-now{position:absolute;top:3px;transform:translateX(-100%);padding-right:5px;font-size:10px;color:#6d8494;white-space:nowrap;pointer-events:none}
+
+.domain-row code{font:12px Consolas,"Courier New",monospace;color:#2a6a94;background:#eef6fa;padding:1px 5px;border:1px solid #d7e6ee;word-break:break-all}
+.domain-row h4{font-weight:normal;margin-bottom:3px}
+
+.voice-tools{padding:7px 12px;background:#f7fbfd;border-bottom:1px solid #d5e3eb;display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.voice-tools button{border:1px solid #b5cedd;background:#eef6fa;padding:2px 10px;color:#3a6885}
+.voice-tools button[aria-pressed=true]{background:#3d8fc2;border-color:#3d8fc2;color:#fff}
+.voice-tools span{margin-left:auto;color:#8b9ba5;font-size:11px}
+.voice-year{padding:4px 12px;background:#edf6fa;border-bottom:1px solid #d0e4ef;color:#5b7d92;font:bold 12px Tahoma,sans-serif}
+.voice-floor{display:grid;grid-template-columns:150px 1fr;border-bottom:1px solid #dce9f0}
+.voice-author{padding:10px 12px;background:#f1f8fc;border-right:1px solid #d5e5ee;min-width:0}
+.voice-author b{display:block;color:#2577a8;font-size:13px;word-break:break-all}
+.voice-author time{font-size:10px;color:#93a5b0}
+.voice-body{padding:10px 16px 11px;min-width:0}
+.voice-body blockquote{margin:0 0 6px;font:14px/1.9 Simsun,"Songti SC",serif;color:#2f4352;white-space:pre-line;overflow-wrap:anywhere}
+.voice-context{color:#8194a0;font-size:11px;margin:0 0 4px}
+.voice-floor.is-dialog{display:block;padding:0;border:0}
+.voice-floor.is-dialog .voice-author{display:none}
+.voice-floor.is-dialog .voice-body{padding:14px 20px}
+
+.glossary{margin:0;padding:8px 12px 10px;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:0 22px}
+.glossary-item{display:grid;grid-template-columns:76px 1fr;gap:8px;padding:7px 0;border-bottom:1px dotted #cfe0ea}
+.glossary dt{color:#2c79a6;font-weight:bold;font-size:13px}
+.glossary dd{margin:0;color:#566b7a;line-height:1.7;min-width:0}
+.glossary .source-list{margin-top:2px}
+.glossary .source-link{font-size:10px;color:#8fa9b9}
+.glossary .source-missing{display:none}
+
+.quiz-list{display:grid;grid-template-columns:1fr 1fr}
+.quiz-item{padding:11px 14px;border-right:1px solid #dfeaf0;border-bottom:1px solid #dfeaf0;min-width:0}
+.quiz-from{color:#9a8a5e;font-size:10px;margin:0}
+.quiz-item h4{font-size:13px;color:#2b5c7c;margin:2px 0 7px;font-weight:normal;line-height:1.6;overflow-wrap:anywhere}
+.quiz-options{display:grid;gap:4px}
+.quiz-options button{display:flex;gap:8px;align-items:baseline;text-align:left;border:1px solid #cfe0ea;background:#fff;padding:3px 8px;color:#3c5566;overflow-wrap:anywhere;min-width:0}
+.quiz-options button b{color:#7ba0b6;font:bold 11px Tahoma,sans-serif}
+.quiz-options button:hover:enabled{border-color:#f0a15c;background:#fffaf2}
+.quiz-options button.is-answer{border-color:#3a9a55;background:#eefaf0;color:#1f6a36}
+.quiz-options button.is-picked-wrong{border-color:#d9836d;background:#fdf1ee;color:#a44a34;text-decoration:line-through}
+.quiz-options button:disabled{cursor:default}
+.quiz-fill{display:flex;gap:6px}
+.quiz-fill input{flex:1;min-width:0;height:25px;border:1px solid #adc6d7;padding:2px 6px}
+.quiz-fill button{border:1px solid #a9c5d7;background:#eaf3f8;padding:0 12px}
+.quiz-result{margin:7px 0 0;color:#6b7f8c;font-size:11px;line-height:1.7}
+.quiz-result strong.is-right{color:#237a3c}
+.quiz-result strong.is-wrong{color:#b4553c}
+.quiz-result:empty{display:none}
+
+.dialog-note-title{font-size:11px;color:#8ea2ae;font-weight:normal;margin:14px 0 2px;border-top:1px dotted #cfe0ea;padding-top:8px}
+.dialog-note{color:#7b8d98;font-size:12px;line-height:1.8}
+.anniversary-theme{color:#a06a3c}
+.section.is-flash{animation:section-flash 1.4s ease-out}
+@keyframes section-flash{0%{box-shadow:0 0 0 3px #f5a45b}100%{box-shadow:0 0 0 3px #f5a45b00}}
+@media(prefers-reduced-motion:reduce){.section.is-flash{animation:none}html{scroll-behavior:auto}}
+
+/* 2007—2008 */
+body[data-era="2007-2008"] .nineteen-hero{background:#fbfdff}
+body[data-era="2007-2008"] .candle b{border-radius:2px;background:#5a94c8}
+body[data-era="2007-2008"] .candle.is-quiet b{background:#aebcc5}
+body[data-era="2007-2008"] .candle.is-now b{background:#d8622b}
+
+/* 2013—2023 Discuz */
+body[data-era="2013-2023"] .nineteen-hero{background:#f3fbff}
+body[data-era="2013-2023"] .candle b{background:#4b9cf8}
+body[data-era="2013-2023"] .candle.is-quiet b{background:#aebcc5}
+body[data-era="2013-2023"] .candle.is-now b{background:#f26c4f}
+body[data-era="2013-2023"] .voice-tools button[aria-pressed=true]{background:#4b9cf8;border-color:#4b9cf8}
+
+/* 2024—2026 新版 */
+body[data-era="2024-2026"] .nineteen-hero{background:#f5f9ff;padding:22px;border-color:#e3eaf3}
+body[data-era="2024-2026"] .nineteen-count strong{font:600 40px/1.2 "Microsoft Yahei",Arial,sans-serif;color:#2275ed}
+body[data-era="2024-2026"] .nineteen-copy h3{font-size:22px;color:#274a6e}
+body[data-era="2024-2026"] .nineteen-copy p{font-size:14px}
+body[data-era="2024-2026"] .subheading{background:#f3f7fe;border-color:#e3eaf3;color:#3a5f85;font-size:14px;padding:9px 18px}
+body[data-era="2024-2026"] .candle-strip{padding:14px 18px;gap:10px;grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}
+body[data-era="2024-2026"] .candle{border-radius:8px;border-color:#dfe7f1;background:#fff;padding:8px 10px;min-height:56px}
+body[data-era="2024-2026"] .candle b{background:#6b9eef}
+body[data-era="2024-2026"] .candle.is-quiet b{background:#b8c4d2}
+body[data-era="2024-2026"] .candle.is-now{border-color:#2275ed;background:#eef5ff}
+body[data-era="2024-2026"] .candle.is-now b{background:#2275ed}
+body[data-era="2024-2026"] .candle em{font-size:13px}
+body[data-era="2024-2026"] .celebration-card,body[data-era="2024-2026"] .quiz-item{font-size:13px;padding:16px 18px}
+body[data-era="2024-2026"] .celebration-card h4{font-size:15px}
+body[data-era="2024-2026"] .milestone{padding:14px 18px}
+body[data-era="2024-2026"] .milestone strong{font-size:24px;color:#2275ed}
+body[data-era="2024-2026"] .milestone span{font-size:13px}
+body[data-era="2024-2026"] .chart-figure,body[data-era="2024-2026"] .tenure-chart{padding:16px 18px}
+body[data-era="2024-2026"] .voice-floor{grid-template-columns:170px 1fr}
+body[data-era="2024-2026"] .voice-author{background:#f6f9fd;padding:14px 18px}
+body[data-era="2024-2026"] .voice-author b{font-size:14px}
+body[data-era="2024-2026"] .voice-body{padding:14px 20px}
+body[data-era="2024-2026"] .voice-body blockquote{font:15px/1.9 "Microsoft Yahei",sans-serif}
+body[data-era="2024-2026"] .voice-context{font-size:12px}
+body[data-era="2024-2026"] .voice-tools{padding:10px 18px}
+body[data-era="2024-2026"] .voice-tools button{border-radius:14px;padding:3px 14px;font-size:13px}
+body[data-era="2024-2026"] .voice-tools button[aria-pressed=true]{background:#2275ed;border-color:#2275ed}
+body[data-era="2024-2026"] .glossary{padding:12px 18px}
+body[data-era="2024-2026"] .glossary dt{font-size:14px}
+body[data-era="2024-2026"] .glossary dd{font-size:13px}
+body[data-era="2024-2026"] .quiz-item h4{font-size:14px}
+body[data-era="2024-2026"] .quiz-options button{border-radius:6px;padding:6px 10px;font-size:13px}
+
+@media(max-width:760px){
+.nineteen-hero{grid-template-columns:1fr;gap:8px;padding:12px 10px}
+.nineteen-count{border-right:0;border-bottom:1px dotted #b9d3e0;padding:0 0 8px;display:flex;align-items:baseline;justify-content:center;gap:8px}
+.nineteen-count strong{font-size:28px;display:inline}
+.nineteen-copy h3{font-size:15px}
+.nineteen-copy p{font-size:12px}
+.candle-strip{grid-template-columns:1fr 1fr;padding:8px;gap:5px}
+.candle{grid-template-columns:24px 1fr;column-gap:5px;padding:4px 5px}
+.candle b{width:24px;height:24px;font-size:12px}
+.candle em{font-size:11px}
+.celebration-detail{grid-template-columns:1fr}
+.celebration-card{border-right:0;border-bottom:1px solid #dbe9f0;padding:10px}
+.celebration-games{columns:1}
+.milestone-tiles{grid-template-columns:1fr 1fr}
+.milestone{padding:8px 10px}
+.milestone strong{font-size:17px}
+.chart-figure{padding:10px 8px}
+.bar-chart{grid-template-columns:32px 1fr;height:200px}
+.bar-area{gap:1px}
+.bar{width:78%}
+.bar-x{font-size:9px}
+.bar-value.is-wide-only{display:none}
+.chart-marks,.chart-table{margin-left:0}
+.chart-table table{min-width:0;width:100%}
+.chart-table th,.chart-table td{padding:2px 4px}
+.tenure-chart{padding:8px}
+.tenure-axis,.tenure-grid{left:82px;right:4px}
+.tenure-row{grid-template-columns:82px 1fr;padding-right:4px}
+.tenure-name{font-size:10px}
+.voice-floor{grid-template-columns:1fr}
+.voice-author{border-right:0;border-bottom:1px dotted #d5e5ee;padding:6px 10px;display:flex;gap:10px;align-items:baseline}
+.voice-author b{display:inline}
+.voice-body{padding:8px 10px 10px}
+.voice-body blockquote{font-size:13px}
+.glossary{grid-template-columns:1fr;padding:6px 10px}
+.quiz-list{grid-template-columns:1fr}
+.quiz-item{border-right:0;padding:10px}
+body[data-era="2024-2026"] .voice-floor{grid-template-columns:1fr}
+body[data-era="2024-2026"] .candle-strip{grid-template-columns:1fr 1fr;padding:10px}
+body[data-era="2024-2026"] .nineteen-count strong{font-size:30px}
+body[data-era="2024-2026"] .nineteen-hero{padding:14px 12px}
+body[data-era="2024-2026"] .celebration-card,body[data-era="2024-2026"] .quiz-item{padding:12px}
+}
+
+/* 第三轮：专题改以 Riverside 的十九周年活动帖为主（徽章、参加办法、可以分享些什么） */
+.nineteen-hero{grid-template-columns:190px 1fr auto}
+.nineteen-badges{display:flex;gap:14px;align-items:flex-start;padding-left:6px}
+.nineteen-badges:empty{display:none}
+.nineteen-badges figure{margin:0;width:104px;text-align:center}
+.nineteen-badges img{display:block;width:92px;height:92px;margin:0 auto 4px;border-radius:50%;box-shadow:0 1px 4px #1c3a5a40}
+.nineteen-badges b{display:block;font-size:11px;color:#2c6f97;font-weight:normal;line-height:1.35}
+.nineteen-badges span{display:block;font-size:10px;color:#a06a3c}
+.celebration-card h4 small{font-weight:normal;color:#8a98a1;font-size:11px;margin-left:6px}
+.celebration-steps{margin:6px 0;padding-left:22px;color:#34566b}
+.celebration-steps li{margin:2px 0}
+.celebration-quote{color:#b0562b;margin:8px 0 4px}
+.celebration-cta{display:inline-block;border:1px solid #e9a56d;background:#fff6ea;color:#b0562b;padding:2px 12px}
+.celebration-cta:hover{background:#ffeed9;color:#93421c;text-decoration:none}
+.share-list{margin:4px 0 8px;display:grid;gap:5px}
+.share-list div{display:grid;grid-template-columns:64px 1fr;gap:10px}
+.share-list dt{color:#2c79a6;font-weight:bold}
+.share-list dd{margin:0;color:#4d6170;min-width:0}
+.celebration-more{color:#6b7f8c}
+.celebration-closing{margin:8px 0 6px;padding:7px 12px;border-left:3px solid #e58a4a;background:#fff8ef;font:14px/1.8 Simsun,"Songti SC",serif;color:#5a4030}
+.celebration-aside{color:#8a98a1;font-size:11px}
+.image-kind-riverside{background:#0f2a4d}
+.image-kind-riverside img{border-radius:50%}
+.milestone-tiles{grid-template-columns:repeat(4,1fr)}
+@media(min-width:1100px){.milestone-tiles{grid-template-columns:repeat(8,1fr)}}
+body[data-era="2024-2026"] .nineteen-badges b{font-size:12px;color:#274a6e}
+body[data-era="2024-2026"] .nineteen-badges span{font-size:11px}
+body[data-era="2024-2026"] .celebration-closing{font:15px/1.8 "Microsoft Yahei",sans-serif;border-left-color:#2275ed;background:#f3f8ff;color:#274a6e}
+body[data-era="2024-2026"] .celebration-cta{border-color:#2275ed;border-radius:6px;background:#eef5ff;color:#2275ed;padding:4px 14px}
+body[data-era="2024-2026"] .share-list div{grid-template-columns:72px 1fr}
+body[data-era="2024-2026"] .share-list dt{color:#2275ed}
+body[data-era="2024-2026"] .celebration-aside,body[data-era="2024-2026"] .celebration-card h4 small{font-size:12px}
+@media(max-width:760px){
+.nineteen-hero{grid-template-columns:1fr}
+.milestone-tiles{grid-template-columns:1fr 1fr}
+.nineteen-badges{justify-content:center;padding:4px 0 0}
+.nineteen-badges img{width:76px;height:76px}
+.share-list div{grid-template-columns:58px 1fr;gap:8px}
+body[data-era="2024-2026"] .share-list div{grid-template-columns:62px 1fr}
+}
+
+/* 第四轮：交互理顺后的控件 */
+.time-hint{color:#82909b;font-size:11px}
+.reconstruction-note b{font-weight:normal;color:#5f7b8c}
+.anniversary-toolbar{align-items:center}
+.anniversary-toolbar button{height:24px;border:1px solid #a9c5d7;background:#eaf3f8;color:#2c6386;padding:0 10px}
+.anniversary-toolbar button:disabled{opacity:.4;cursor:default}
+.anniversary-toolbar select{height:24px;border:1px solid #adc6d7;background:#fff}
+.candle[aria-pressed=true]{box-shadow:inset 0 0 0 2px #f0a15c}
+.subheading .text-button{margin-left:10px;font-weight:normal}
+.visual-text-only{color:#8d9da6;text-align:center;font-size:12px}
+.visual-text-only small{display:block;font-size:10px}
+.steward-columns{grid-template-columns:1fr 1fr}
+.steward-general,.steward-other{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;border-right:0}
+.steward-general .column-heading,.steward-other .column-heading{grid-column:1/-1}
+.steward-general .leader-row:nth-of-type(odd),.steward-other .leader-row:nth-of-type(odd){border-right:1px solid #d3e3ed}
+.steward-backend{border-right:0}
+.gap-row{grid-template-columns:200px 1fr}
+body[data-era="2024-2026"] .anniversary-toolbar button,body[data-era="2024-2026"] .anniversary-toolbar select{height:30px;border-radius:6px;font-size:13px}
+body[data-era="2024-2026"] .candle[aria-pressed=true]{box-shadow:inset 0 0 0 2px #2275ed}
+@media(max-width:760px){
+.steward-columns{grid-template-columns:1fr}
+.steward-general,.steward-other{grid-template-columns:1fr}
+.steward-general .leader-row:nth-of-type(odd),.steward-other .leader-row:nth-of-type(odd){border-right:0}
+.steward-column{border-right:0}
+.gap-row{grid-template-columns:1fr;gap:4px}
+.anniversary-toolbar{gap:8px}
+}
+
+/* 第五轮：存档首页上的数字、存档截图、纸船 Logo */
+.growth-note{margin:0;padding:8px 14px 0;color:#7c8f9a;font-size:11px}
+.growth-scroll{overflow-x:auto;padding:6px 14px 12px}
+.growth-table table{border-collapse:collapse;width:100%;min-width:520px;font-size:12px}
+.growth-table th,.growth-table td{border-bottom:1px solid #dfeaf0;padding:4px 10px;text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.growth-table th{color:#6f8a99;font-weight:normal;background:#f4fafc}
+.growth-table td:first-child,.growth-table th:first-child{text-align:left}
+.growth-table td{color:#33566b}
+.image-kind-archive{align-items:flex-start;background:#fff;border:1px solid #dfeaf0}
+.image-kind-archive .visual-open img{width:100%;max-height:none;object-fit:cover;object-position:top}
+.status-archive{color:#5b7fa6}
+.boat-logo{display:none!important}
+body[data-era="2024-2026"] .growth-note{padding:10px 18px 0;font-size:12px}
+body[data-era="2024-2026"] .growth-scroll{padding:8px 18px 16px}
+body[data-era="2024-2026"] .growth-table table{font-size:13px}
+@media(max-width:760px){.growth-scroll{padding:6px 8px 10px}.growth-note{padding:8px 8px 0}.growth-table th,.growth-table td{padding:4px 6px}}
+
+/* 2009—2012：页头换成 2013 年 7 月存档里的原图（纸船 Logo、蓝色页头底、导航底） */
+body[data-era="2009-2012"] .early-logo{display:none}
+body[data-era="2009-2012"] .boat-logo{display:block!important;height:98px;width:auto;max-width:none}
+body[data-era="2009-2012"] .masthead{height:120px;background:#54a2ff url('assets/skin/newind-head-bg.png') repeat-x;gap:28px;padding:0 12px}
+body[data-era="2009-2012"] .site-slogan{color:#eaf4ff}
+body[data-era="2009-2012"] .welcome{color:#eaf4ff}
+body[data-era="2009-2012"] .welcome a{color:#fff}
+body[data-era="2009-2012"] .forum-search input{border-color:#3d86e0}
+body[data-era="2009-2012"] .forum-search button{border-color:#3d86e0}
+body[data-era="2009-2012"] .primary-nav{background:#4295ff url('assets/skin/newind-navbg.png') repeat-x;border:0;border-bottom:1px solid #2f7be0}
+body[data-era="2009-2012"] .nav-inner{height:36px}
+body[data-era="2009-2012"] .nav-inner a{color:#fff;text-shadow:none;border:0;padding:8px 20px;font-size:13px}
+body[data-era="2009-2012"] .nav-inner a:first-child{background:none;color:#ffe680}
+body[data-era="2009-2012"] .nav-inner a:hover{background:#2f7be0;text-decoration:none;color:#fff}
+@media(max-width:760px){
+body[data-era="2009-2012"] .boat-logo{height:66px}
+body[data-era="2009-2012"] .masthead{height:84px;padding:0 6px;gap:8px}
+body[data-era="2009-2012"] .nav-inner a{padding:8px 10px;font-size:12px}
+}
