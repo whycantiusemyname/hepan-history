@@ -308,7 +308,7 @@
       general: { title: '站长', note: '2007—2014，2018 至今' },
       frontend: { title: '前台站长', note: '2014—2018 · 管运营和前台事务' },
       backend: { title: '后台站长', note: '2014—2018 · 管服务器、人事和招商' },
-      other: { title: '另外两位', note: '常被算进站长，但没有任命公告' }
+      other: { title: '另外两条', note: '激情之焰没有任命公告；下划线是 ﹏﹏﹏﹏ 后来用的号' }
     };
     $('#leader-list').innerHTML = Object.entries(groups).map(([key, group]) => {
       const rows = sortLeaders(leaders.filter((leader) => leaderGroup(leader) === key));

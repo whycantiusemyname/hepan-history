@@ -324,8 +324,10 @@ body[data-era="2024-2026"] .growth-table table{font-size:13px}
 
 /* 2009—2012：页头换成 2013 年 7 月存档里的原图（纸船 Logo、蓝色页头底、导航底） */
 body[data-era="2009-2012"] .early-logo{display:none}
-body[data-era="2009-2012"] .boat-logo{display:block!important;height:98px;width:auto;max-width:none}
-body[data-era="2009-2012"] .masthead{height:120px;background:#54a2ff url('assets/skin/newind-head-bg.png') repeat-x;gap:28px;padding:0 12px}
+/* 蓝色页头底铺满整个窗口宽度：背景放在外层 .masthead-band 上；Logo 按原图 120px 高，和底图的渐变对齐 */
+body[data-era="2009-2012"] .masthead-band{background:#54a2ff url('assets/skin/newind-head-bg.png') repeat-x;background-size:auto 100%}
+body[data-era="2009-2012"] .boat-logo{display:block!important;height:120px;width:auto;max-width:none}
+body[data-era="2009-2012"] .masthead{height:120px;background:none;gap:28px;padding:0}
 body[data-era="2009-2012"] .site-slogan{color:#eaf4ff}
 body[data-era="2009-2012"] .welcome{color:#eaf4ff}
 body[data-era="2009-2012"] .welcome a{color:#fff}
@@ -337,7 +339,8 @@ body[data-era="2009-2012"] .nav-inner a{color:#fff;text-shadow:none;border:0;pad
 body[data-era="2009-2012"] .nav-inner a:first-child{background:none;color:#ffe680}
 body[data-era="2009-2012"] .nav-inner a:hover{background:#2f7be0;text-decoration:none;color:#fff}
 @media(max-width:760px){
-body[data-era="2009-2012"] .boat-logo{height:66px}
-body[data-era="2009-2012"] .masthead{height:84px;padding:0 6px;gap:8px}
+body[data-era="2009-2012"] .boat-logo{height:72px}
+body[data-era="2009-2012"] .masthead{height:72px;padding:0;gap:8px}
+body[data-era="2009-2012"] .masthead .welcome{display:none}
 body[data-era="2009-2012"] .nav-inner a{padding:8px 10px;font-size:12px}
 }

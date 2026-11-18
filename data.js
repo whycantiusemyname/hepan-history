@@ -4,7 +4,7 @@ window.HISTORY = {
     "summary": "2007 年 11 月 13 日，清水河校区启用的第一个学期，清水河畔开放注册。2026 年 11 月 13 日，它十九岁——这一年的生日，畔友们是在 Riverside 过的。这里把十九年里的公告、换届感言、周年活动帖和畔友自己写下的话，一条条找出来，按年头摆好。",
     "scope": "从 1997 年的一网深情，写到 2026 年 11 月的 Riverside。建站、换届、改版、每一年的畔庆尽量用当时的原帖；回忆和推算都注明。",
     "method": "每条纪事都能点开原帖。引用的原话和竞猜答案，生成页面时逐条对照过原帖。Riverside 十九周年活动帖里提到的原站帖子都找出来读过；畔友的几个考古帖和互联网档案馆里存下的老页面，补上了河畔之前的那一段，也补上了 2014 年以后首页上的数字。",
-    "note": "老论坛的去向、几位站长的任期、2010 年的页头。都列在页面最后“还没查清的事”里。"
+    "note": "老论坛的去向、激情之焰的任期、2010 年的页头。都列在页面最后“还没查清的事”里。"
   },
   "events": [
     {
@@ -629,6 +629,64 @@ window.HISTORY = {
       "tags": [
         "版块",
         "情系舞缘"
+      ]
+    },
+    {
+      "id": "ppl-01",
+      "date": "2008-03-29",
+      "year": 2008,
+      "title": "“以后代理不叫开代理”：开饭和吃饭",
+      "category": "社区生活",
+      "summary": "2008 年，宿舍上外网是按小时算钱的。3 月 29 日，畔友“非常不浪漫”发帖成立“天天开饭”联盟：“一人开代理,其他成员共享上外网”，每晚七点到十一点，轮流值日。帖子里算过账：一个人上四个小时是 3.6 元，七个人轮着开，同样的钱能用一个星期。暗号也是这一帖定的：“以后代理不叫开代理：暂时定为 【开饭】，建议以后盟友们低调行事”。从此开代理叫开饭，连上去叫吃饭，饭钱用水滴付。一个月后有人建议“应该弄一个专区”，楼下回的是“低调才能长久”；到 6 月，“代理开饭”已经是一个版块了。",
+      "details": "2009 年有人问开饭是什么意思，回帖说：“就是外网的同学给内网的同学开代理，以前没钱的时候经常用，包月了就没用了。”2011 年开得最勤的人里有后来的后台站长激情之焰。2013 年 12 月，lemanyuan 在水区问：“你们还记得代理开饭这个区吗”。2025 年夏天，仙贝把当年的教程又翻了出来，帖名《开饭？开饭！——梦回2012》，说那时“都是免费奉献，收取一点水滴”；楼下下划线记得的价钱是“电信包月 60，计时 0.9/小时”，和 2008 年那笔账对得上。五周年竞猜问过“吃饭”是什么意思，标准答案：使用代理。",
+      "confidence": "同期原帖",
+      "tags": [
+        "开饭",
+        "代理"
+      ],
+      "sources": [
+        {
+          "title": "【天天开饭】 成立了",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=20481",
+          "tid": 20481,
+          "date": "2008-03-29"
+        },
+        {
+          "title": "关于“开饭”proxy",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=32748",
+          "tid": 32748,
+          "date": "2008-04-21"
+        },
+        {
+          "title": "代理开饭的板块似乎好几天没有人管了",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=81632",
+          "tid": 81632,
+          "date": "2008-06-25"
+        },
+        {
+          "title": "问下跳蚤市场的代理开饭是什么意思？",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=305691",
+          "tid": 305691,
+          "date": "2009-05-11"
+        },
+        {
+          "title": "你们还记得代理开饭这个区吗",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1395773",
+          "tid": 1395773,
+          "date": "2013-12-14"
+        },
+        {
+          "title": "开饭？开饭！——梦回2012",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=2345185",
+          "tid": 2345185,
+          "date": "2025-07-17"
+        },
+        {
+          "title": "“五动青春”清水河畔五周年庆典答题竞猜活动 答案",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1237277",
+          "tid": 1237277,
+          "date": "2012-11-16"
+        }
       ]
     },
     {
@@ -1449,7 +1507,7 @@ window.HISTORY = {
       "title": "两个叫 Riverside 的 Chrome 插件",
       "category": "技术演进",
       "summary": "3 月 13 日，豆沙包发布 Chrome 插件 Riverside Anywhere：在校外点开内网地址的河畔链接，它自动换成外网域名；不开网页也能提醒未读站内信。5 月 19 日，用户名是一串下划线的 _____ 发布 Riverside Plus：域名转换、保持登录、新消息提醒、黑名单。那几年河畔有好几个域名，校内校外还不通用，两个插件对付的是同一件麻烦事。十四年后，“Riverside”成了校友新社区的名字。",
-      "details": "Riverside Anywhere 由凝聚网络安全工作室发起，代码以 GPLv2 开源。Riverside Plus 的作者账号是 UID 100436，名字是五个半角下划线；它和后来的 ﹏﹏﹏﹏（UID 119040）、下划线（UID 125662）是不是同一个人，没有查到。“十四年后再度启用”是 Riverside 十九周年活动帖里的话。",
+      "details": "Riverside Anywhere 由凝聚网络安全工作室发起，代码以 GPLv2 开源。Riverside Plus 的作者账号是 UID 100436，名字是五个半角下划线；这是下划线 2011 年 6 月注册的小号，他后来在《我与清水河畔的故事》里写过：Riverside Plus 是他在校期间唯一的精华帖。“十四年后再度启用”是 Riverside 十九周年活动帖里的话。",
       "confidence": "同期原帖",
       "sources": [
         {
@@ -1469,6 +1527,12 @@ window.HISTORY = {
           "url": "https://river-side.cc/t/topic/33136",
           "date": "2026-11-13",
           "site": "Riverside"
+        },
+        {
+          "title": "我与清水河畔的故事（不定期补充更新）",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1981228",
+          "tid": 1981228,
+          "date": "2022-11-13"
         }
       ],
       "tags": [
@@ -1614,6 +1678,59 @@ window.HISTORY = {
         "Discuz",
         "重构",
         "数据迁移"
+      ]
+    },
+    {
+      "id": "ppl-02",
+      "date": "2013-10-29",
+      "year": 2013,
+      "title": "新版上线第三天，有了一份改进日志",
+      "category": "技术演进",
+      "summary": "Discuz 新版公测的第三天夜里，激情之焰在站务综合开了一帖《新版清水河畔改进日志》，一天一记。10 月 29 日：换默认头像和级别图标，“修复了银行BUG并对数据进行修正”，修好版主没法评分，修好发帖数显示不对。30 日：“配置gzip压缩及memcache以提高页面载入速度”，“修复原河畔帖子url无法访问的问题”，修实名关联。31 日：毕业生专区和社区大杂烩两栏合并，游戏世界下面加了英雄联盟专区。楼下第一条回复列了五条“仍需改进的地方”，头一条是“排行榜要回来”。",
+      "details": "在这之前，他 7 月征集过清水河校区的实景照片，10 月 1 日重开了股票交易所和银行；之后 12 月发了性能优化公告，2014 年 3 月修掉一个评分漏洞，公告的头一句是“一次由存储型XSS引发的血案”。2014 年 5 月起，更新日志换成了 lemanyuan 的《what's new!》。",
+      "confidence": "同期公告",
+      "tags": [
+        "Discuz",
+        "改进日志",
+        "激情之焰"
+      ],
+      "sources": [
+        {
+          "title": "新版清水河畔改进日志",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1383446",
+          "tid": 1383446,
+          "date": "2013-10-29"
+        },
+        {
+          "title": "【清水河校园实景图有奖征集】",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1348080",
+          "tid": 1348080,
+          "date": "2013-07-11"
+        },
+        {
+          "title": "清水河股票交易所与银行开放通知",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1373929",
+          "tid": 1373929,
+          "date": "2013-10-01"
+        },
+        {
+          "title": "【清水河畔性能优化公告】",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1394179",
+          "tid": 1394179,
+          "date": "2013-12-08"
+        },
+        {
+          "title": "评分漏洞已修复",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1414598",
+          "tid": 1414598,
+          "date": "2014-03-11"
+        },
+        {
+          "title": "what\\'s new!",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1431488",
+          "tid": 1431488,
+          "date": "2014-05-04"
+        }
       ]
     },
     {
@@ -1934,7 +2051,7 @@ window.HISTORY = {
       "title": "callofdutyops 退休，后台交给 ﹏﹏﹏﹏",
       "category": "站务治理",
       "summary": "第六任站长 callofdutyops 要备战考研，把人事任免和后台管理交给 ﹏﹏﹏﹏（UID 119040），称他为“第七任后台站长”。他回忆了通宵赶代码、办好声音做视频的日子，也为没能做好移动端道歉。",
-      "details": "公告感谢的五位前任依次是 dove188、minute、hyaigy、拒绝者、江南之春。﹏﹏﹏﹏ 和后来的“下划线”（UID 125662）是两个账号，水区都当作同一个人，本人没有说过。",
+      "details": "公告感谢的五位前任依次是 dove188、minute、hyaigy、拒绝者、江南之春。﹏﹏﹏﹏ 就是后来的下划线，这是他读研后启用的号。",
       "confidence": "同期公告",
       "sources": [
         {
@@ -1942,6 +2059,12 @@ window.HISTORY = {
           "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1544921",
           "tid": 1544921,
           "date": "2015-07-26"
+        },
+        {
+          "title": "我与清水河畔的故事（不定期补充更新）",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1981228",
+          "tid": 1981228,
+          "date": "2022-11-13"
         }
       ],
       "tags": [
@@ -2152,7 +2275,7 @@ window.HISTORY = {
       "title": "页脚的版本号换成了 Discuz! X3.4",
       "category": "技术演进",
       "summary": "换到 Discuz 以后，存档里最早的一张首页（2014 年 6 月）页脚写着 Discuz! X3.1。2017 年 9 月 3 日凌晨那张还是 X3.1；9 月 8 日，已经是 X3.4。这次升级没有找到公告。到 2026 年 2 月，旧版河畔的页脚仍然是 X3.4。",
-      "details": "",
+      "details": "那几天后台站长 ﹏﹏﹏﹏ 正在动数据库：9 月 11 日晚，他把绝大多数文本字段转成 utf8mb4，“21：45 河畔第一条包含 Emoji 的站内信诞生”。",
       "confidence": "网页存档",
       "tags": [
         "Discuz",
@@ -2182,6 +2305,12 @@ window.HISTORY = {
           "url": "https://web.archive.org/web/20260228053222/https://bbs.uestc.edu.cn/",
           "date": "2026-02-28",
           "site": "互联网档案馆"
+        },
+        {
+          "title": "我与清水河畔的故事（不定期补充更新）",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1981228",
+          "tid": 1981228,
+          "date": "2022-11-13"
         }
       ]
     },
@@ -2542,13 +2671,59 @@ window.HISTORY = {
       ]
     },
     {
+      "id": "ppl-03",
+      "date": "2020-11-13",
+      "year": 2020,
+      "title": "春站的帖子没了",
+      "category": "社区生活",
+      "summary": "第五任站长江南之春，畔友叫他“春站”。毕业工作以后，他在河畔写了很多求职和研究所工作的经验。2020 年 10 月 30 日，时任站长 472036783 在水区发了一帖火：有人把畔友的分享截图发到站外，还有人拿去问 HR 是不是真的。两周后，有人发现春站的帖子“全没了”。一位畔友写道：“为众人抱薪者，被人暗算，寒心”；另一位说，从此想了解某个研究所，“发现只有五年前的帖子”。今天在他名下能查到的主题，2014 年 5 月之后、2023 年之前一个都没有。他 2014 年 6 月的站长退休公告也在这一段里，原文靠 2024 年的站长合集留了下来。",
+      "details": "2022 年 5 月 8 日，站务给就业创业版加了一条附加版规：“禁止以包括截图在内的任何形式，外泄就业创业区的帖子内容到清水河畔以外的互联网平台上”，同时上线了账号水印。公告注明，这条版规主要由版主奇怪er 草拟——就是写考古帖的那一位。",
+      "confidence": "同期原帖",
+      "tags": [
+        "江南之春",
+        "就业创业"
+      ],
+      "sources": [
+        {
+          "title": "林子大了啥鸟都有",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1823788",
+          "tid": 1823788,
+          "date": "2020-10-30"
+        },
+        {
+          "title": "我牙血，春站被搞了？？",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1826280",
+          "tid": 1826280,
+          "date": "2020-11-13"
+        },
+        {
+          "title": "春站的帖子删了之后",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1825070",
+          "tid": 1825070,
+          "date": "2020-11-06"
+        },
+        {
+          "title": "关于就业创业版块禁止外传的附加规定",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1933840",
+          "tid": 1933840,
+          "date": "2022-05-08"
+        },
+        {
+          "title": "历届站长退休公告/感言合集",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=2167620",
+          "tid": 2167620,
+          "date": "2024-09-03"
+        }
+      ]
+    },
+    {
       "id": "x19-25",
       "date": "2021-03-11",
       "year": 2021,
       "title": "iPad 事件：一场烧到站外的争吵",
       "category": "社区生活",
       "summary": "一个关于归还拾到的 iPad 的帖子在水区吵了起来。几天里，对一件小事的不同看法变成了成片的情绪帖，夹着对留学生群体的偏见和对当事新生的指责；争吵又蔓延到 QQ 空间和知乎，双方都出现了人身攻击。第二天，畔友 Ah! 开帖分章节梳理经过，楼下叫他“河畔太史令”。他自己的观察是：“客观的人有，但发贴的少。”几天后失主找到，iPad 物归原主。",
-      "details": "经过出自这位畔友当时的梳理帖。Riverside 的十九周年活动帖提到，站务组那几天发过一封《致清水河畔会员与非会员的一封信》，这封信的原帖没有找到。",
+      "details": "经过出自这位畔友当时的梳理帖。第二天，站务组发了一封《致清水河畔会员与非会员的一封信》，见 3 月 12 日那一条。",
       "confidence": "同期原帖",
       "sources": [
         {
@@ -2562,10 +2737,96 @@ window.HISTORY = {
           "url": "https://river-side.cc/t/topic/33136",
           "date": "2026-11-13",
           "site": "Riverside"
+        },
+        {
+          "title": "致广大的清水河畔会员与非会员",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1845885",
+          "tid": 1845885,
+          "date": "2021-03-12"
         }
       ],
       "tags": [
         "iPad 事件"
+      ]
+    },
+    {
+      "id": "ppl-04",
+      "date": "2021-03-12",
+      "year": 2021,
+      "title": "站务组的一封信：“包容必然有包容的代价”",
+      "category": "站务治理",
+      "summary": "iPad 事件吵到第二天下午，站务组用 admin 账号发了《致广大的清水河畔会员与非会员》，正文题为“致清水河畔会员与非会员的一封信”。信里说了三层意思。河畔是“成电‘自己人’交流的平台”，没有必要像公共舆论平台那样严管：同学愿意来讲问题，“学校也能更直接有效地了解问题并快速解决”。“包容必然有包容的代价”：有些话让人看着不舒服，但没有违反版规和法规，站务不处理，因为“唯有不允许站务组的处理中夹带主观因素才能确保河畔的包容性”。最后数了数河畔攒下的东西：面经、内推、导师情况、拼车、二手。十三分钟后，站长 472036783 另发一帖回应管理问题，开头把同一句话写了三遍：“本公告不对事件本身做出任何评价”。",
+      "details": "Riverside 的十九周年活动帖提到过这封信，给的链接指到了别的帖子。原帖在站务公告版，有一万三千多次查看。",
+      "confidence": "同期公告",
+      "tags": [
+        "iPad 事件",
+        "站务"
+      ],
+      "sources": [
+        {
+          "title": "致广大的清水河畔会员与非会员",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1845885",
+          "tid": 1845885,
+          "date": "2021-03-12"
+        },
+        {
+          "title": "关于“Ipad门”事件中论坛管理问题的回应",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1845897",
+          "tid": 1845897,
+          "date": "2021-03-12"
+        },
+        {
+          "title": "河畔十九周年，重聚 Riverside",
+          "url": "https://river-side.cc/t/topic/33136",
+          "date": "2026-11-13",
+          "site": "Riverside"
+        }
+      ]
+    },
+    {
+      "id": "ppl-05",
+      "date": "2021-03-20",
+      "year": 2021,
+      "title": "停机维护，留下一个合成大河畔",
+      "category": "社区生活",
+      "summary": "为了“降低河畔502的频率”，河畔定在 3 月 20 日早上八点到 22 日早上八点停机维护。公告里有一句：“维护期间河畔将提供简单但有趣的小游戏供大家打发闲暇时间。”那个小游戏就是合成大河畔。21 日上午水区出现了第一帖，楼主晒的是“这类游戏最高分纪念”；二楼说，原版打死上不了 1700，“河畔这个一把就上2000了”。还有人纳闷：“这全球玩家是怎么来的，不是只有河畔玩家吗”。22 日晚上，有人发帖《首页还是合成大河畔啊....》。游戏后来留了下来，这年 8 月有人问“那个河畔游戏里的 合成大河畔 怎么玩啊”。2023 年十六周年，它第一次被拿来办线上活动。",
+      "details": "十六周年的公告交代：“才不会告诉你是合成大西瓜的拙劣换皮呢，哼。”",
+      "confidence": "同期公告",
+      "tags": [
+        "合成大河畔",
+        "维护"
+      ],
+      "sources": [
+        {
+          "title": "清水河畔3月20日停机维护公告",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1848184",
+          "tid": 1848184,
+          "date": "2021-03-18"
+        },
+        {
+          "title": "合成大河畔",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1848757",
+          "tid": 1848757,
+          "date": "2021-03-21"
+        },
+        {
+          "title": "首页还是合成大河畔啊....",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1849328",
+          "tid": 1849328,
+          "date": "2021-03-22"
+        },
+        {
+          "title": "那个河畔游戏里的 合成大河畔 怎么玩啊",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1884014",
+          "tid": 1884014,
+          "date": "2021-08-13"
+        },
+        {
+          "title": "清水河畔十六周年庆·序",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=2095766",
+          "tid": 2095766,
+          "date": "2023-11-06"
+        }
       ]
     },
     {
@@ -2643,7 +2904,7 @@ window.HISTORY = {
       "title": "寒假里，外网先关了 101 天",
       "category": "技术演进",
       "summary": "“接信息中心通知，校园网暂时关闭外网访问。”寒假的河畔本来就冷清，通知下的第一条回复说这是“雪上加霜”，还有人惦记着：“还想看看各位的年夜饭长什么样呢。”3 月中旬，站长打电话问来一个日期——4 月 10 日，又补了一句“开放时间待定”。4 月 26 日，站务为“后续开放河畔外网访问”划出了成电校友用户组。",
-      "details": "5 月 5 日这个日子出自 Riverside 的十九周年活动帖，从 1 月 24 日算起是 101 天；原站当天的公告没有找到。互联网档案馆的爬虫 2021 年 12 月 22 日之后，下一次存下河畔首页是 2022 年 5 月 19 日。",
+      "details": "原站那天没有发公告。5 月 5 日这个日子见于两处：Riverside 的十九周年活动帖，和下划线半年后写的回忆——那天他“听说清水河畔好不容易终于恢复了外网访问，忍不住回来看看”。从 1 月 24 日算起是 101 天。互联网档案馆 5 月 19 日又存下了首页。",
       "confidence": "同期公告",
       "sources": [
         {
@@ -2681,6 +2942,12 @@ window.HISTORY = {
           "url": "https://web.archive.org/web/20220519014515/https://bbs.uestc.edu.cn/",
           "date": "2022-05-19",
           "site": "互联网档案馆"
+        },
+        {
+          "title": "我与清水河畔的故事（不定期补充更新）",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1981228",
+          "tid": 1981228,
+          "date": "2022-11-13"
         }
       ],
       "tags": [
@@ -2919,7 +3186,7 @@ window.HISTORY = {
       "year": 2023,
       "title": "清水河畔十五周年",
       "category": "畔庆",
-      "summary": "2022 年 11 月同样没有活动。到 2023 年 3 月底，站务才发出十五周年庆公告：“距离上一次清水河畔的线下活动已然两年有余……而今阴霾散去，快乐的日子将会来临！”4 月 2 日，大家在活动中心门前补过了十五岁生日，套圈、投壶、滚铁环，下午两点抽千元大奖。这一届开始定制周年文化衫：正面“阿鲁点赞”，背面“蛋黄脸严肃表情”，2000 水滴或 10 元一件，帖子里注明“站长说不足的部分由他出私房钱贴上”。线下抽奖也第一次用上了实体刮刮卡。",
+      "summary": "2022 年 11 月同样没有活动。7 日有人在水区发帖《河畔15周年庆有吗》，楼里一串人 @ 站长，站长回了四个字：“啊吧啊吧”。那年下半年，学校隔三差五做全员核酸：8 月有人发帖问《最近为何还要高强度全员核酸》；生日过后第四天，11 月 17 日，水区又有一帖《为啥突然全员核酸？》，楼里问：“清水河要求三天三检？”12 月上旬防控放开，10 日就有人发帖《对面寝室隔壁寝室都阳了》；16 日一条回帖说：“教研室阳了一半，导师也阳了”。到 2023 年 3 月底，站务才发出十五周年庆公告，开头写：“距离上一次清水河畔的线下活动已然两年有余”，“共同见证了那段艰难而难忘的抗疫历程。而今阴霾散去，快乐的日子将会来临！”4 月 2 日，大家在活动中心门前补过了十五岁生日，套圈、投壶、滚铁环，下午两点抽千元大奖。这一届开始定制周年文化衫：正面“阿鲁点赞”，背面“蛋黄脸严肃表情”，2000 水滴或 10 元一件，帖子里注明“站长说不足的部分由他出私房钱贴上”。线下抽奖也第一次用上了实体刮刮卡。",
       "details": "2023 年 4 月 2 日线下补庆：套圈、投壶、滚铁环、掷沙包、保龄球、板鞋接力；第一次用实体刮刮卡抽奖；开始定制周年文化衫",
       "confidence": "同期公告",
       "sources": [
@@ -2940,6 +3207,42 @@ window.HISTORY = {
           "url": "https://river-side.cc/t/topic/33136",
           "date": "2026-11-13",
           "site": "Riverside"
+        },
+        {
+          "title": "河畔15周年庆有吗",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1979614",
+          "tid": 1979614,
+          "date": "2022-11-07"
+        },
+        {
+          "title": "最近为何还要高强度全员核酸",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1958956",
+          "tid": 1958956,
+          "date": "2022-08-03"
+        },
+        {
+          "title": "为啥突然全员核酸？",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1982349",
+          "tid": 1982349,
+          "date": "2022-11-17"
+        },
+        {
+          "title": "既然都全面放开了，有可能可以不扫进校码吗",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1989584",
+          "tid": 1989584,
+          "date": "2022-12-09"
+        },
+        {
+          "title": "对面寝室隔壁寝室都阳了",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1989934",
+          "tid": 1989934,
+          "date": "2022-12-10"
+        },
+        {
+          "title": "好玄学啊，我认识的人都阳了但我还是没🐏",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1992463",
+          "tid": 1992463,
+          "date": "2022-12-16"
         }
       ],
       "tags": [
@@ -3091,7 +3394,7 @@ window.HISTORY = {
       "title": "外网回来的那两天：429,441 层",
       "category": "社区生活",
       "summary": "上午 11:28，站长细胞质不机智开了活动帖：“402天的漫长守候，一路相伴，感谢有你！”规则是抢尾号 78 的楼层，“不限多连不限最多回复数不限最高楼层，能水你就来”。到 7 月 9 日 24:00 收楼，这一帖有 429,441 条回复。在这之前，最高的一栋抢楼是 2018 年的 110,012 层。",
-      "details": "两天 429,441 层，平均每天 21 万多。至少有一天，单这一个帖子的回复就超过了 2011 年全站 212,685 帖的单日纪录——这是按回复数推出来的，当天的全站统计没有见到。Riverside 的十九周年活动帖还提到，它打破了九年前的单用户日发帖纪录。互联网档案馆存下了开放当天 13:36 的首页：帖子 32,828,422，会员 219,685。六天后是 33,297,902，多了 469,480 帖。",
+      "details": "两天 429,441 层，平均每天 21 万多。至少有一天，单这一个帖子的回复就超过了 2011 年全站 212,685 帖的单日纪录——这是按回复数推出来的，当天的全站统计没有见到。水手之家的荣誉名人堂里记着另一项纪录：7 月 9 日这一天，发帖最多的一个账号发了 54,497 帖。上一个纪录是 2015 年 6 月 5 日的 19,312 帖。互联网档案馆存下了开放当天 13:36 的首页：帖子 32,828,422，会员 219,685。六天后是 33,297,902，多了 469,480 帖。",
       "confidence": "同期原帖",
       "sources": [
         {
@@ -3135,6 +3438,12 @@ window.HISTORY = {
           "url": "https://web.archive.org/web/20240714123606/https://bbs.uestc.edu.cn/",
           "date": "2024-07-14",
           "site": "互联网档案馆"
+        },
+        {
+          "title": "人气之星评选标准及荣誉名人堂",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=323352",
+          "tid": 323352,
+          "date": "2009-05-29"
         }
       ],
       "tags": [
@@ -3604,7 +3913,7 @@ window.HISTORY = {
       "role": "第五任站长",
       "start": "2012-06-28",
       "end": "2014-06-23",
-      "summary": "2012 年 5 月先当前台管理员，一个多月后接下全部站务。2013 年 10 月换 Discuz 是在他任上，意见楼里那句“请求大家，不要再谩骂了”是他写的。2014 年 6 月 23 日卸任，把后台交给 callofdutyops——这个日子出自后来的站长合集，卸任的原帖还没找到。",
+      "summary": "2012 年 5 月先当前台管理员，一个多月后接下全部站务。2013 年 10 月换 Discuz 是在他任上，意见楼里那句“请求大家，不要再谩骂了”是他写的。2014 年 6 月 23 日卸任，把后台交给 callofdutyops。退休公告的原帖现在打不开：2020 年 11 月，他毕业后在河畔写的帖子被成批删除，这一帖也在其中。原文留在 2024 年的站长合集里。",
       "sources": [
         {
           "title": "清水河畔第四任站长拒绝者退休公告",
@@ -3617,6 +3926,12 @@ window.HISTORY = {
           "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=2167620",
           "tid": 2167620,
           "date": "2024-09-03"
+        },
+        {
+          "title": "我牙血，春站被搞了？？",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1826280",
+          "tid": 1826280,
+          "date": "2020-11-13"
         }
       ],
       "confidence": "同期公告",
@@ -3629,10 +3944,10 @@ window.HISTORY = {
     },
     {
       "name": "激情之焰",
-      "role": "超级版主",
+      "role": "后台站长",
       "start": "",
       "end": "",
-      "summary": "2012 年 5 月的人事公告里，他是毕业生专区的超级版主。后来的站长合集把他列为“后台第五任”，lemanyuan 2016 年的退休公告也把他（UID 56230）算进前任站长，排在江南之春和 callofdutyops 之间；可 callofdutyops 自己 2015 年感谢的五位前任里没有他。任命帖和任期都没找到。",
+      "summary": "2010 年 3 月开始发帖，两个月后申请内网私服专区的版主，理由是自己架过传奇私服、正开着 AION 私服。后来管社会百态；2011 年在代理开饭区发了两百多帖，水区叫他“基站”。2012 年 3 月升超级版主，管休闲娱乐。2013 年 7 月存档的首页上，“站务管理”的分栏版主是五个人：江南之春、太阳太阳、风吹过海、升腾の螺旋，和他。换 Discuz 前后，后台的事多由他出面：7 月征集校园实景照片，10 月 1 日重开股票交易所和银行，新版上线第三天开始写《新版清水河畔改进日志》，12 月发性能优化公告，2014 年 3 月修掉一个评分漏洞。任命他当站长的公告没有找到，公告版 2012 年 7 月到 2014 年 6 月的标题里没有。把他算作站长的有两处：lemanyuan 2016 年的退休公告，和 2024 年的站长合集——合集把他排在“第 5 任【后台】”，原文一栏写的是“无”。callofdutyops 2015 年感谢的五位前任里没有他，2014 年 10 月的管理组名单里也没有。",
       "sources": [
         {
           "title": "清水河畔人事任免公告",
@@ -3651,9 +3966,45 @@ window.HISTORY = {
           "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=2167620",
           "tid": 2167620,
           "date": "2024-09-03"
+        },
+        {
+          "title": "申请内网私服专区版主",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=582739",
+          "tid": 582739,
+          "date": "2010-05-13"
+        },
+        {
+          "title": "清水河畔管理组人事变动公告",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1081245",
+          "tid": 1081245,
+          "date": "2012-03-16"
+        },
+        {
+          "title": "新版清水河畔改进日志",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1383446",
+          "tid": 1383446,
+          "date": "2013-10-29"
+        },
+        {
+          "title": "评分漏洞已修复",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1414598",
+          "tid": 1414598,
+          "date": "2014-03-11"
+        },
+        {
+          "title": "清水河畔论坛人事调整公告",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1470381",
+          "tid": 1470381,
+          "date": "2014-10-06"
+        },
+        {
+          "title": "清水河畔首页，2013-07-26",
+          "url": "https://web.archive.org/web/20130726131600/http://bbs.stuhome.net",
+          "date": "2013-07-26",
+          "site": "互联网档案馆"
         }
       ],
-      "confidence": "待证",
+      "confidence": "事后追记",
       "span": {
         "start": null,
         "end": null,
@@ -3693,8 +4044,8 @@ window.HISTORY = {
       "name": "﹏﹏﹏﹏（UID 119040）",
       "role": "第七任后台站长",
       "start": "2015-07-26",
-      "end": "2018-05（没有公告）",
-      "summary": "callofdutyops 退休时任命的继任者，接管人事任免和后台管理，评价是“开发能力强，并且在河畔也有一定的声誉”。卸任没有公告。2023 年 472036783 离任时说，自己原想在第 1029 天退位，“成为和下划线并列任职时长第一的站长”——从 2015 年 7 月 26 日数 1029 天，是 2018 年 5 月 20 日。存档的首页对得上：“分区版主”一栏里，他的名字 2014 年 11 月就在了，最后一次出现是 2018 年 5 月 19 日，一周后那张上已经没有。",
+      "end": "2018-05-21",
+      "summary": "下划线的第二个号。他 2011 年 5 月用 ____ 注册，2012 年 5 月在 Unicode 字符表里看到“﹏”这个字符，顺手注册了这一个；2014 年 7 月读研后启用。10 月当超级版主，2015 年 5 月当管理员，7 月 26 日被任命为第七任后台站长。任内写了 HTML5 的附件上传，2017 年 9 月把数据库转成 utf8mb4，河畔从此能发 Emoji。卸任没有公告，是他自己动的手：2018 年 5 月 21 日上午，“编辑自己的用户组，删除科技交流分栏版主，转为普通会员”。他数过：“从 2015 年 7 月 27 日到 2018 年 5 月 21 日，一共 1029 天，站长一职到此为止。”存档首页的分区版主栏里，他的名字最后一次出现是 5 月 19 日。6 月 29 日离校。",
       "sources": [
         {
           "title": "清水河畔第六任站长callofdutyops退休公告",
@@ -3725,12 +4076,30 @@ window.HISTORY = {
           "url": "https://web.archive.org/web/20180526095815/http://bbs.uestc.edu.cn:80/forum.php",
           "date": "2018-05-26",
           "site": "互联网档案馆"
+        },
+        {
+          "title": "我与清水河畔的故事（不定期补充更新）",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1981228",
+          "tid": 1981228,
+          "date": "2022-11-13"
+        },
+        {
+          "title": "清水河畔论坛人事调整公告",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1470381",
+          "tid": 1470381,
+          "date": "2014-10-06"
+        },
+        {
+          "title": "清水河畔管理组人事变更通知",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1520588",
+          "tid": 1520588,
+          "date": "2015-05-22"
         }
       ],
       "confidence": "同期公告",
       "span": {
         "start": "2015-07-26",
-        "end": "2018-05-20",
+        "end": "2018-05-21",
         "startOpen": false,
         "branch": "backend"
       }
@@ -3926,7 +4295,7 @@ window.HISTORY = {
       "role": "新版河畔的开发者",
       "start": "2022-05",
       "end": "2025-12-23",
-      "summary": "自己说 2022 年 5 月“重回河畔”，2023 年 11 月接手重构，2024 年 2 月主持了服务器故障后的恢复，5 月新版上线，2025 年 12 月 23 日告别。水区叫他“吓唬线”“线线”，都把他当成 2015 年那位后台站长 ﹏﹏﹏﹏。两个账号 UID 不同，本人没有说过，所以这里分开写。",
+      "summary": "和 ﹏﹏﹏﹏ 是同一个人。2022 年十五周年那天，他发了《我与清水河畔的故事》，把几个账号挨个交代了：____ 是 2011 年注册的第一个号；_____ 是一个月后注册的小号，Riverside Plus 就是用它发的；﹏﹏﹏﹏ 是读研后用的号；“下划线”是 2022 年回来时启用的，此前从未发过帖。那年 5 月 5 日，他听说外网恢复，“忍不住回来看看”。2023 年 11 月接手重构，2024 年 2 月主持了服务器故障后的恢复，5 月新版上线，2025 年 12 月 23 日告别。水区叫他“吓唬线”“线线”。",
       "sources": [
         {
           "title": "历届站长退休公告/感言合集",
@@ -3951,6 +4320,18 @@ window.HISTORY = {
           "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=2032074",
           "tid": 2032074,
           "date": "2023-04-10"
+        },
+        {
+          "title": "我与清水河畔的故事（不定期补充更新）",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1981228",
+          "tid": 1981228,
+          "date": "2022-11-13"
+        },
+        {
+          "title": "福利帖3：Chrome扩展程序：Riverside Plus已更新至0.2.6.52",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1131127",
+          "tid": 1131127,
+          "date": "2012-05-19"
         }
       ],
       "confidence": "当事人自述",
@@ -4811,7 +5192,7 @@ window.HISTORY = {
       "number": 15,
       "title": "清水河畔十五周年",
       "theme": "未设主题",
-      "summary": "2022 年 11 月同样没有活动。到 2023 年 3 月底，站务才发出十五周年庆公告：“距离上一次清水河畔的线下活动已然两年有余……而今阴霾散去，快乐的日子将会来临！”4 月 2 日，大家在活动中心门前补过了十五岁生日，套圈、投壶、滚铁环，下午两点抽千元大奖。这一届开始定制周年文化衫：正面“阿鲁点赞”，背面“蛋黄脸严肃表情”，2000 水滴或 10 元一件，帖子里注明“站长说不足的部分由他出私房钱贴上”。线下抽奖也第一次用上了实体刮刮卡。",
+      "summary": "2022 年 11 月同样没有活动。7 日有人在水区发帖《河畔15周年庆有吗》，楼里一串人 @ 站长，站长回了四个字：“啊吧啊吧”。那年下半年，学校隔三差五做全员核酸：8 月有人发帖问《最近为何还要高强度全员核酸》；生日过后第四天，11 月 17 日，水区又有一帖《为啥突然全员核酸？》，楼里问：“清水河要求三天三检？”12 月上旬防控放开，10 日就有人发帖《对面寝室隔壁寝室都阳了》；16 日一条回帖说：“教研室阳了一半，导师也阳了”。到 2023 年 3 月底，站务才发出十五周年庆公告，开头写：“距离上一次清水河畔的线下活动已然两年有余”，“共同见证了那段艰难而难忘的抗疫历程。而今阴霾散去，快乐的日子将会来临！”4 月 2 日，大家在活动中心门前补过了十五岁生日，套圈、投壶、滚铁环，下午两点抽千元大奖。这一届开始定制周年文化衫：正面“阿鲁点赞”，背面“蛋黄脸严肃表情”，2000 水滴或 10 元一件，帖子里注明“站长说不足的部分由他出私房钱贴上”。线下抽奖也第一次用上了实体刮刮卡。",
       "activities": [
         "2023 年 4 月 2 日线下补庆：套圈、投壶、滚铁环、掷沙包、保龄球、板鞋接力",
         "第一次用实体刮刮卡抽奖",
@@ -4837,6 +5218,42 @@ window.HISTORY = {
           "url": "https://river-side.cc/t/topic/33136",
           "date": "2026-11-13",
           "site": "Riverside"
+        },
+        {
+          "title": "河畔15周年庆有吗",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1979614",
+          "tid": 1979614,
+          "date": "2022-11-07"
+        },
+        {
+          "title": "最近为何还要高强度全员核酸",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1958956",
+          "tid": 1958956,
+          "date": "2022-08-03"
+        },
+        {
+          "title": "为啥突然全员核酸？",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1982349",
+          "tid": 1982349,
+          "date": "2022-11-17"
+        },
+        {
+          "title": "既然都全面放开了，有可能可以不扫进校码吗",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1989584",
+          "tid": 1989584,
+          "date": "2022-12-09"
+        },
+        {
+          "title": "对面寝室隔壁寝室都阳了",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1989934",
+          "tid": 1989934,
+          "date": "2022-12-10"
+        },
+        {
+          "title": "好玄学啊，我认识的人都阳了但我还是没🐏",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1992463",
+          "tid": 1992463,
+          "date": "2022-12-16"
         }
       ],
       "highlight": "次年春天补庆"
@@ -5625,7 +6042,7 @@ window.HISTORY = {
     },
     {
       "title": "几位站长的任期",
-      "summary": "江南之春 2014 年卸任的原帖还没找到。激情之焰出现在 lemanyuan 2016 年列出的前任站长里，却不在 callofdutyops 2015 年的名单里。﹏﹏﹏﹏（UID 119040）没有卸任公告，2018 年 5 月下旬这个日子是从别人的话和存档的首页推出来的；它和“下划线”（UID 125662）、还有 2012 年写 Riverside Plus 的 _____（UID 100436）是不是同一个人，本人都没说过。",
+      "summary": "激情之焰没有任命公告。2013 年后台的事多由他出面，lemanyuan 2016 年把他列进前任站长，callofdutyops 2015 年的名单里却没有他；哪天上任、哪天卸任，都不清楚。",
       "sources": [
         {
           "title": "清水河畔第六任前台站长lemanyuan退休公告",
@@ -5656,12 +6073,24 @@ window.HISTORY = {
           "url": "https://web.archive.org/web/20180526095815/http://bbs.uestc.edu.cn:80/forum.php",
           "date": "2018-05-26",
           "site": "互联网档案馆"
+        },
+        {
+          "title": "清水河畔论坛人事调整公告",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1470381",
+          "tid": 1470381,
+          "date": "2014-10-06"
+        },
+        {
+          "title": "历届站长退休公告/感言合集",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=2167620",
+          "tid": 2167620,
+          "date": "2024-09-03"
         }
       ]
     },
     {
       "title": "各个年代的完整首页",
-      "summary": "互联网档案馆里找到了 2007 年 11 月、2008 年、2009 年和 2013 年 7 月的首页，但 2007—2009 年的几张没有存下图片，只剩文字和版式。2010 到 2012 年，档案馆的爬虫被挡在校外，抓到的只有一句“Welcome to Stuhome”的提示。所以 2010 年三周年换上的页头长什么样，还是没见到；2009—2012 那套皮肤的页头，用的是 2013 年 7 月存档里的纸船 Logo。换 Discuz 后的头一年也几乎是空的：2013 年 10 月到 2014 年 10 月，只存下 2014 年 6 月的一张。",
+      "summary": "互联网档案馆里找到了 2007 年 11 月、2008 年、2009 年和 2013 年 7 月的首页，但 2007—2009 年的几张没有存下图片，只剩文字和版式。2010 到 2012 年，档案馆的爬虫被挡在校外，抓到的只有一句“Welcome to Stuhome”的提示。所以 2010 年三周年换上的页头长什么样，还是没见到；2009—2012 那套皮肤的页头，用的是 2013 年 7 月存档里的纸船 Logo。换 Discuz 后的头一年也几乎是空的：2013 年 10 月到 2014 年 10 月，只存下 2014 年 6 月的一张。河畔用过的几个外网域名也查过了：bbs.qshpan.com 和 bbs.watermen.net 在档案馆里最早是 2013 年的，bbs.germanyt.com 和 bbs.tangdg.info 没有存档，bbs.uestc6.edu.cn 2011 年 11 月那张也只有“Welcome to Stuhome”。档案馆另有一张 bbs.qshpan.com 的页面截图，标的是 2012 年 6 月，图上的帖子却是 2013 年 1 月 17、18 日的；页头已经是纸船。",
       "sources": [
         {
           "title": "清水河畔首页，2013-07-26",
@@ -5679,6 +6108,18 @@ window.HISTORY = {
           "title": "清水河畔首页，2014-06-29",
           "url": "https://web.archive.org/web/20140628213202/http://bbs.stuhome.net/",
           "date": "2014-06-29",
+          "site": "互联网档案馆"
+        },
+        {
+          "title": "互联网档案馆的页面截图（bbs.qshpan.com）",
+          "url": "https://web.archive.org/web/20120607110529/http://web.archive.org/screenshot/http://bbs.qshpan.com/",
+          "date": "2013-01-18",
+          "site": "互联网档案馆"
+        },
+        {
+          "title": "bbs.uestc6.edu.cn，2011-11-19",
+          "url": "https://web.archive.org/web/20111119215004/http://bbs.uestc6.edu.cn:80/",
+          "date": "2011-11-19",
           "site": "互联网档案馆"
         }
       ]
@@ -5736,47 +6177,11 @@ window.HISTORY = {
           "site": "互联网档案馆"
         }
       ]
-    },
-    {
-      "title": "2021、2022 年为什么没办畔庆",
-      "summary": "十四周年没有任何活动帖，原因只见于第二年 1 月前任站长的一句回帖：疫情期间学校不让办。十五周年推到 2023 年 4 月才补。站务当时有没有正式说过，没找到。",
-      "sources": [
-        {
-          "title": "清水河畔十四周年",
-          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1916311",
-          "tid": 1916311,
-          "date": "2022-01-09"
-        },
-        {
-          "title": "【清水河畔十五周年庆】",
-          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=2026242",
-          "tid": 2026242,
-          "date": "2023-03-29"
-        }
-      ]
-    },
-    {
-      "title": "只在 Riverside 回顾里见到的几件事",
-      "summary": "Riverside 的十九周年活动帖里还有三处没对上：2022 年外网在 5 月 5 日恢复（互联网档案馆最早在 5 月 19 日又存下了首页）；2021 年站务组发过一封《致清水河畔会员与非会员的一封信》；2024 年 7 月的回归楼打破了单用户日发帖纪录。帖里说的几次在线人数纪录，已经在存档的首页上对上了。",
-      "sources": [
-        {
-          "title": "河畔十九周年，重聚 Riverside",
-          "url": "https://river-side.cc/t/topic/33136",
-          "date": "2026-11-13",
-          "site": "Riverside"
-        },
-        {
-          "title": "清水河畔首页，2022-05-19",
-          "url": "https://web.archive.org/web/20220519014515/https://bbs.uestc.edu.cn/",
-          "date": "2022-05-19",
-          "site": "互联网档案馆"
-        }
-      ]
     }
   ],
   "stats": {
-    "threads": 194,
-    "posts": 3768,
+    "threads": 231,
+    "posts": 4269,
     "voices": 47
   },
   "visuals": [
@@ -6324,6 +6729,22 @@ window.HISTORY = {
           "title": "清水河畔首页，2008-06-11",
           "url": "https://web.archive.org/web/20080611061640/http://bbs.stuhome.com:80/",
           "date": "2008-06-11",
+          "site": "互联网档案馆"
+        }
+      ]
+    },
+    {
+      "title": "2013 年 1 月的页头",
+      "period": "2013-01-18",
+      "era": "2009-2012",
+      "kind": "archive_page",
+      "caption": "互联网档案馆自己渲染的一张截图，汉字大多没显示出来，页头是完整的：纸船、手写体的站名、右边学生之家的标志。档案馆把它标在 2012 年 6 月，图上的帖子却是 2013 年 1 月 17、18 日的。纸船页头目前能见到的最早一张。",
+      "image": "assets/history/wb-qshpan-2013-01.jpg",
+      "sources": [
+        {
+          "title": "互联网档案馆的页面截图（bbs.qshpan.com）",
+          "url": "https://web.archive.org/web/20120607110529/http://web.archive.org/screenshot/http://bbs.qshpan.com/",
+          "date": "2013-01-18",
           "site": "互联网档案馆"
         }
       ]
@@ -7927,9 +8348,27 @@ window.HISTORY = {
       ]
     },
     {
-      "term": "吃饭",
-      "text": "五周年竞猜的标准答案是“使用代理”。那些年，河畔也是找代理上外网的地方。",
+      "term": "开饭与吃饭",
+      "text": "有外网的同学开代理，叫开饭；内网的同学连上去用，叫吃饭；饭钱用水滴付。说法出自 2008 年 3 月的“天天开饭”联盟：“以后代理不叫开代理：暂时定为 【开饭】”。后来有了专门的版块“代理开饭”。五周年竞猜问“吃饭”是什么意思，标准答案是“使用代理”。",
       "sources": [
+        {
+          "title": "【天天开饭】 成立了",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=20481",
+          "tid": 20481,
+          "date": "2008-03-29"
+        },
+        {
+          "title": "问下跳蚤市场的代理开饭是什么意思？",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=305691",
+          "tid": 305691,
+          "date": "2009-05-11"
+        },
+        {
+          "title": "开饭？开饭！——梦回2012",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=2345185",
+          "tid": 2345185,
+          "date": "2025-07-17"
+        },
         {
           "title": "“五动青春”清水河畔五周年庆典答题竞猜活动 答案",
           "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1237277",
@@ -7970,8 +8409,20 @@ window.HISTORY = {
     },
     {
       "term": "合成大河畔",
-      "text": "十六周年起的线上小游戏。公告自己交代：“才不会告诉你是合成大西瓜的拙劣换皮呢，哼。”第二年的说法是：“才不会告诉你是因为想不出创意。”",
+      "text": "河畔自己的小游戏。2021 年 3 月停机维护，公告说维护期间“将提供简单但有趣的小游戏供大家打发闲暇时间”，就是它；维护完留了下来。2023 年十六周年第一次用来办线上活动，公告自己交代：“才不会告诉你是合成大西瓜的拙劣换皮呢，哼。”第二年的说法是：“才不会告诉你是因为想不出创意。”",
       "sources": [
+        {
+          "title": "清水河畔3月20日停机维护公告",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1848184",
+          "tid": 1848184,
+          "date": "2021-03-18"
+        },
+        {
+          "title": "合成大河畔",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1848757",
+          "tid": 1848757,
+          "date": "2021-03-21"
+        },
         {
           "title": "清水河畔十六周年庆·序",
           "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=2095766",
@@ -8137,6 +8588,19 @@ window.HISTORY = {
       ]
     },
     {
+      "date": "2009-07",
+      "host": "ibm.anlove.me",
+      "text": "同一个域名下的另一个地址。互联网档案馆 2009 年 7 月存下的河畔首页，用的就是它。",
+      "sources": [
+        {
+          "title": "清水河畔首页，2009-07-04",
+          "url": "https://web.archive.org/web/20090704042515/http://ibm.anlove.me:80/",
+          "date": "2009-07-04",
+          "site": "互联网档案馆"
+        }
+      ]
+    },
+    {
       "date": "2009-08-29",
       "host": "bbs2.stuhome.net",
       "text": "升级 PHPWind 7.3.2 后，旧论坛搬到这个地址，“仍可浏览，但不可发帖”。",
@@ -8150,7 +8614,7 @@ window.HISTORY = {
       ]
     },
     {
-      "date": "2009 年底—2011",
+      "date": "2009 年底—2011-12",
       "host": "bbs.auxten.com",
       "text": "以技术成员 auxten 命名的地址，三周年、四周年的公告都同时给出它和 stuhome.net 两条链接。",
       "sources": [
@@ -8180,6 +8644,81 @@ window.HISTORY = {
           "date": "2010-08-09"
         }
       ]
+    },
+    {
+      "date": "2011-12",
+      "host": "bbs.qshpan.com",
+      "text": "bbs.auxten.com 到期后换上的外网域名。2011 年 12 月 5 日有人发帖说老域名登不上了，第二天楼里已经在传新地址；月底还有人以为自己被封了号，回帖说：“因为域名过期了”。",
+      "sources": [
+        {
+          "title": "河畔外网域名挂了？",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1025297",
+          "tid": 1025297,
+          "date": "2011-12-05"
+        },
+        {
+          "title": "我擦，河畔外网域名换了锅竟然不知道！",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1026172",
+          "tid": 1026172,
+          "date": "2011-12-06"
+        },
+        {
+          "title": "清水河畔怎么换外网地址了啊",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1043563",
+          "tid": 1043563,
+          "date": "2011-12-31"
+        },
+        {
+          "title": "清水河畔首页（bbs.qshpan.com），2013-04-27",
+          "url": "https://web.archive.org/web/20130427172304/http://bbs.qshpan.com/",
+          "date": "2013-04-27",
+          "site": "互联网档案馆"
+        }
+      ]
+    },
+    {
+      "date": "2012-03 前后",
+      "host": "bbs.germanyt.com",
+      "text": "又一个能进河畔的地址。2012 年 3 月水滴调整的意见楼里，有回帖的引用链接走的就是它；2013 年 1 月，它还在畔友数出来的可用网址里。互联网档案馆没有存下它。",
+      "sources": [
+        {
+          "title": "关于货币政策调整意见征求帖",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1090384",
+          "tid": 1090384,
+          "date": "2012-03-27"
+        },
+        {
+          "title": "看来qshpan要正式换名为watermen了。。。。",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1265899",
+          "tid": 1265899,
+          "date": "2013-01-21"
+        }
+      ]
+    },
+    {
+      "date": "2013-01",
+      "host": "bbs.watermen.net",
+      "text": "2013 年 1 月有人发现又多了两个地址：bbs.qshpan.net 和 bbs.watermen.net，楼主说：“关键watermen以后真心主流了”。互联网档案馆在这年 7、8 月存过它上面的首页。",
+      "sources": [
+        {
+          "title": "看来qshpan要正式换名为watermen了。。。。",
+          "url": "https://bbs.uestc.edu.cn/forum.php?mod=viewthread&tid=1265899",
+          "tid": 1265899,
+          "date": "2013-01-21"
+        },
+        {
+          "title": "清水河畔首页（bbs.watermen.net），2013-07-02",
+          "url": "https://web.archive.org/web/20130702225550/http://bbs.watermen.net",
+          "date": "2013-07-02",
+          "site": "互联网档案馆"
+        }
+      ]
+    },
+    {
+      "date": "年份不详",
+      "host": "bbs.tangdg.info",
+      "text": "老畔友记得的另一个外网地址。论坛里搜不到提它的帖子，互联网档案馆也没有存档，哪一年用的还不清楚。",
+      "sources": []
     },
     {
       "date": "2014-11-02",
